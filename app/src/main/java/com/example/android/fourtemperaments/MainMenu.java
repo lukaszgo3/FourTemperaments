@@ -22,19 +22,16 @@ public class MainMenu extends AppCompatActivity {
         startActivity(i);
 
     }
+
     public void temperaments(View v) {
         Intent i = new Intent(this, Temperaments.class);
         startActivity(i);
 
-    }public void about(View v) {
+    }
+
+    public void about(View v) {
         Intent i = new Intent(this, About.class);
         startActivity(i);
 
-    }
-
-    public void exit(View v) {
-        android.os.Process.killProcess(android.os.Process.myPid());
-        this.finish();
-        System.exit(0);
     }
 }
