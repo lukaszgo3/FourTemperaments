@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main_menu"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background"
+    tools:context="com.example.android.fourtemperaments.MainMenu">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="4"
+        android:gravity="center"
+        android:orientation="vertical">
+        <TextView
+            android:textSize="30sp"
+            android:gravity="center_horizontal"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/fourT"
+            android:textColor="@color/cards"
+            android:fontFamily="sans-serif-black"
+            />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:layout_gravity="center"
+        android:src="@drawable/temperamentslogo"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="2"
+        android:gravity="center">
+    <Button
+        style="@style/menuButton"
+        android:onClick="play"
+        android:text="@string/start" />
+
+    <Button
+        style="@style/menuButton"
+        android:text="@string/temp"
+        android:onClick="temperaments"/>
+
+    <Button
+        style="@style/menuButton"
+        android:text="@string/about"
+        android:onClick="about"/>
+
+
+    <Button
+        style="@style/menuButton"
+        android:onClick="exit"
+        android:text="@string/exit" />
+    </LinearLayout>
+
+
+
+</LinearLayout>

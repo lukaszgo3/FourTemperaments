@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_result"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="com.example.android.fourtemperaments.ResultActivity">
+
+    <android.support.v7.widget.CardView style="@style/cards">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                style="@style/layoutResult">
+
+                <TextView
+                    style="@style/resultName"
+                    android:id="@+id/name"
+                    />
+
+                <TextView
+                    style="@style/resultTitle"
+                    android:id="@+id/resultTitle"
+                   />
+
+                <TextView
+                    style="@style/resultTxt"
+                    android:id="@+id/resultTxt"
+                    />
+
+                <TextView
+                    style="@style/resultTitle"
+                    android:id="@+id/resultTitle2"
+                    />
+
+                <TextView
+                    style="@style/resultTxt"
+                    android:id="@+id/resultTxt2"
+                 />
+
+                <TextView
+                    style="@style/resultTxt"
+                    android:text="@string/mails"/>
+
+
+            </LinearLayout>
+        </ScrollView>
+    </android.support.v7.widget.CardView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/sendMe"
+            style="@style/resultButton"
+            android:text="send to me"/>
+        <Button
+            android:id="@+id/udacityFor"
+            style="@style/resultButton"
+            android:text="udacity"
+            android:visibility="invisible"/>
+        <Button
+            android:id="@+id/sendYou"
+            style="@style/resultButton"
+            android:text="email"/>
+    </LinearLayout>
+    <Button
+        style="@style/menuButton"
+        android:onClick="mainMenu"
+        android:text="Back to Menu" />
+</LinearLayout>

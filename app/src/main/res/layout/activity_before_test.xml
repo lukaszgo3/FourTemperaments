@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_before_test"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="com.example.android.fourtemperaments.BeforeTest">
+
+    <android.support.v7.widget.CardView style="@style/cards">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout style="@style/layoutResult">
+                <TextView
+                    android:text="@string/beforeStart"
+                    style="@style/resultTitle"
+                    android:gravity="center"
+                    />
+                <TextView
+                    style="@style/beforeQuestions"
+                    android:text="@string/information"
+                    android:layout_marginBottom="20dp"
+                    />
+
+                <EditText
+                    android:id="@+id/yourName"
+                    style="@style/editText" />
+
+                <TextView
+                    style="@style/beforeQuestions"
+                    android:text="@string/udacityPart" />
+
+                <CheckBox
+                    android:id="@+id/udacityCheck"
+                    style="@style/wrap20dp"
+                    android:text="@string/yes" />
+
+                <TextView
+                    style="@style/beforeQuestions"
+                    android:text="@string/whoAreU" />
+
+                <RadioGroup style="@style/wrap20dp">
+
+                    <RadioButton
+                        android:id="@+id/woman"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:tag="woman"
+                        android:text="@string/woman" />
+
+                    <RadioButton
+                        android:id="@+id/man"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:tag="man"
+                        android:text="@string/man" />
+                </RadioGroup>
+
+                <TextView
+                    style="@style/beforeQuestions"
+                    android:text="@string/expBefore" />
+
+                <RadioGroup
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <RadioButton
+                        android:id="@+id/yes"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:tag="yes"
+                        android:text="@string/yes" />
+
+                    <RadioButton
+                        android:id="@+id/no"
+                        style="@style/wrap20dp"
+                        android:tag="no"
+                        android:text="@string/no" />
+
+                </RadioGroup>
+
+                <TextView
+                    style="@style/beforeQuestions"
+                    android:text="@string/howOld" />
+
+                <RadioGroup
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <RadioButton
+                        android:id="@+id/age1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:tag="age1"
+                        android:text="@string/age17" />
+
+                    <RadioButton
+                        android:id="@+id/age2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:tag="age2"
+                        android:text="18-24" />
+
+                    <RadioButton
+                        android:id="@+id/age3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:tag="age3"
+                        android:text="25-30" />
+
+                    <RadioButton
+                        android:id="@+id/age4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:tag="age4"
+                        android:text="31-35" />
+
+                    <RadioButton
+                        android:id="@+id/age5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:tag="age5"
+                        android:text="36-40" />
+
+                    <RadioButton
+                        android:id="@+id/age6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:tag="age6"
+                        android:text="41+" />
+                </RadioGroup>
+            </LinearLayout>
+        </ScrollView>
+    </android.support.v7.widget.CardView>
+
+    <Button
+        style="@style/menuButton"
+        android:onClick="beforeTest"
+        android:text="@string/startTest" />
+</LinearLayout>

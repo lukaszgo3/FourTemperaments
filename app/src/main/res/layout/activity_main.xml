@@ -1,0 +1,2623 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="com.example.android.fourtemperaments.MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout style="@style/layoutOutsideCard">
+            <!-- Question 1 -->
+            <android.support.v7.widget.CardView style="@style/cards">
+
+                <LinearLayout style="@style/layoutInsideCard">
+
+                    <ImageView
+                        style="@style/cardImageView"
+                        android:src="@drawable/answer1" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="230dp">
+
+                        <RadioGroup
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent">
+
+                            <RadioButton
+                                android:id="@+id/answer1"
+                                style="@style/radioButtons"
+                                android:tag="A"
+                                android:text="@string/answer1T" />
+
+                            <RadioButton
+                                android:id="@+id/answer2"
+                                style="@style/radioButtons"
+                                android:tag="B"
+                                android:text="@string/answer2T" />
+
+                            <RadioButton
+                                android:id="@+id/answer3"
+                                style="@style/radioButtons"
+                                android:tag="C"
+                                android:text="@string/answer3T" />
+
+                            <RadioButton
+                                android:id="@+id/answer4"
+                                style="@style/radioButtons"
+                                android:tag="D"
+                                android:text="@string/answer4T" />
+                        </RadioGroup>
+
+                        <LinearLayout style="@style/matchVerticalLayout">
+
+                            <TextView
+                                style="@style/answers"
+                                android:text="@string/answer1" />
+
+                            <TextView
+                                style="@style/answers"
+                                android:text="@string/answer2" />
+
+                            <TextView
+                                style="@style/answers"
+                                android:text="@string/answer3" />
+
+                            <TextView
+                                style="@style/answers"
+                                android:text="@string/answer4" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+            <!-- Question 2a -->
+            <android.support.v7.widget.CardView style="@style/cards">
+
+                <LinearLayout style="@style/layoutInsideCard">
+
+                    <ImageView
+                        style="@style/cardImageView"
+                        android:src="@drawable/answer2" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="240dp">
+
+                        <RadioGroup
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent">
+
+                            <RadioButton
+                                android:id="@+id/answer1a"
+                                style="@style/radioButtons"
+                                android:tag="A"
+                                android:text="@string/answer1Ta" />
+
+                            <RadioButton
+                                android:id="@+id/answer2a"
+                                style="@style/radioButtons"
+                                android:tag="B"
+                                android:text="@string/answer2Ta" />
+
+                            <RadioButton
+                                android:id="@+id/answer3a"
+                                style="@style/radioButtons"
+                                android:tag="C"
+                                android:text="@string/answer3Ta" />
+
+                            <RadioButton
+                                android:id="@+id/answer4a"
+                                style="@style/radioButtons"
+                                android:tag="D"
+                                android:text="@string/answer4Ta" />
+                        </RadioGroup>
+
+                        <LinearLayout style="@style/matchVerticalLayout">
+
+                            <TextView
+                                style="@style/answers"
+                                android:text="@string/answer1a" />
+
+                            <TextView
+                                style="@style/answers"
+                                android:text="@string/answer2a" />
+
+                            <TextView
+                                style="@style/answers"
+                                android:text="@string/answer3a" />
+
+                            <TextView
+                                style="@style/answers"
+                                android:text="@string/answer4a" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+            <!-- Question 3b -->
+            <android.support.v7.widget.CardView style="@style/cards">
+
+                <LinearLayout style="@style/layoutInsideCard">
+
+                    <ImageView
+                        style="@style/cardImageView"
+                        android:src="@drawable/answer3" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="350dp">
+
+                        <RadioGroup
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent">
+
+                            <RadioButton
+                                android:id="@+id/answer1b"
+                                style="@style/radioButtons"
+                                android:tag="A"
+                                android:text="@string/answer1Tb" />
+
+                            <RadioButton
+                                android:id="@+id/answer2b"
+                                style="@style/radioButtons"
+                                android:tag="B"
+                                android:text="@string/answer2Tb" />
+
+                            <RadioButton
+                                android:id="@+id/answer3b"
+                                style="@style/radioButtons"
+                                android:tag="C"
+                                android:text="@string/answer3Tb" />
+
+                            <RadioButton
+                                android:id="@+id/answer4b"
+                                style="@style/radioButtons"
+                                android:tag="D"
+                                android:text="@string/answer4Tb" />
+                        </RadioGroup>
+
+                        <LinearLayout style="@style/matchVerticalLayout">
+
+                            <TextView
+                                style="@style/answers"
+                                android:text="@string/answer1b" />
+
+                            <TextView
+                                style="@style/answers"
+                                android:text="@string/answer2b" />
+
+                            <TextView
+                                style="@style/answers"
+                                android:text="@string/answer3b" />
+
+                            <TextView
+                                style="@style/answers"
+                                android:text="@string/answer4b" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+            <!-- Question 4c -->
+            <android.support.v7.widget.CardView style="@style/cards">
+
+                <LinearLayout style="@style/layoutInsideCard">
+
+                    <ImageView
+                        style="@style/cardImageView"
+                        android:src="@drawable/answer4" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="280dp">
+
+                        <RadioGroup
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent">
+
+                            <RadioButton
+                                android:id="@+id/answer1c"
+                                style="@style/radioButtons"
+                                android:tag="A"
+                                android:text="@string/answer1Tc" />
+
+                            <RadioButton
+                                android:id="@+id/answer2c"
+                                style="@style/radioButtons"
+                                android:tag="B"
+                                android:text="@string/answer2Tc" />
+
+                            <RadioButton
+                                android:id="@+id/answer3c"
+                                style="@style/radioButtons"
+                                android:tag="C"
+                                android:text="@string/answer3Tc" />
+
+                            <RadioButton
+                                android:id="@+id/answer4c"
+                                style="@style/radioButtons"
+                                android:tag="D"
+                                android:text="@string/answer4Tc" />
+                        </RadioGroup>
+
+                        <LinearLayout style="@style/matchVerticalLayout">
+
+                            <TextView
+                                style="@style/answers"
+                                android:text="@string/answer1c" />
+
+                            <TextView
+                                style="@style/answers"
+                                android:text="@string/answer2c" />
+
+                            <TextView
+                                style="@style/answers"
+                                android:text="@string/answer3c" />
+
+                            <TextView
+                                style="@style/answers"
+                                android:text="@string/answer4c" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+            <!-- Question 5d -->
+            <android.support.v7.widget.CardView style="@style/cards">
+
+                <LinearLayout style="@style/layoutInsideCard">
+
+                    <ImageView
+                        style="@style/cardImageView"
+                        android:src="@drawable/answer5" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="250dp">
+
+                        <RadioGroup
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent">
+
+                            <RadioButton
+                                android:id="@+id/answer1d"
+                                style="@style/radioButtons"
+                                android:tag="A"
+                                android:text="@string/answer1Td" />
+
+                            <RadioButton
+                                android:id="@+id/answer2d"
+                                style="@style/radioButtons"
+                                android:tag="B"
+                                android:text="@string/answer2Td" />
+
+                            <RadioButton
+                                android:id="@+id/answer3d"
+                                style="@style/radioButtons"
+                                android:tag="C"
+                                android:text="@string/answer3Td" />
+
+                            <RadioButton
+                                android:id="@+id/answer4d"
+                                style="@style/radioButtons"
+                                android:tag="D"
+                                android:text="@string/answer4Td" />
+                        </RadioGroup>
+
+                        <LinearLayout style="@style/matchVerticalLayout">
+
+                            <TextView
+                                style="@style/answers"
+                                android:text="@string/answer1d" />
+
+                            <TextView
+                                style="@style/answers"
+                                android:text="@string/answer2d" />
+
+                            <TextView
+                                style="@style/answers"
+                                android:text="@string/answer3d" />
+
+                            <TextView
+                                style="@style/answers"
+                                android:text="@string/answer4d" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+            <!-- Question 6e -->
+            <android.support.v7.widget.CardView style="@style/cards">
+
+                <LinearLayout style="@style/layoutInsideCard">
+
+                    <ImageView
+                        style="@style/cardImageView"
+                        android:src="@drawable/answer6" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="250dp">
+
+                        <RadioGroup
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent">
+
+                            <RadioButton
+                                android:id="@+id/answer1e"
+                                style="@style/radioButtons"
+                                android:tag="A"
+                                android:text="@string/answer1Te" />
+
+                            <RadioButton
+                                android:id="@+id/answer2e"
+                                style="@style/radioButtons"
+                                android:tag="B"
+                                android:text="@string/answer2Te" />
+
+                            <RadioButton
+                                android:id="@+id/answer3e"
+                                style="@style/radioButtons"
+                                android:tag="C"
+                                android:text="@string/answer3Te" />
+
+                            <RadioButton
+                                android:id="@+id/answer4e"
+                                style="@style/radioButtons"
+                                android:tag="D"
+                                android:text="@string/answer4Te" />
+                        </RadioGroup>
+
+                        <LinearLayout style="@style/matchVerticalLayout">
+
+                            <TextView
+                                style="@style/answers"
+                                android:text="@string/answer1e" />
+
+                            <TextView
+                                style="@style/answers"
+                                android:text="@string/answer2e" />
+
+                            <TextView
+                                style="@style/answers"
+                                android:text="@string/answer3e" />
+
+                            <TextView
+                                style="@style/answers"
+                                android:text="@string/answer4e" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+            <!-- Question 7f -->
+            <android.support.v7.widget.CardView style="@style/cards">
+
+                <LinearLayout style="@style/layoutInsideCard">
+
+                    <ImageView
+                        style="@style/cardImageView"
+                        android:src="@drawable/answer7" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="260dp">
+
+                        <RadioGroup
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent">
+
+                            <RadioButton
+                                android:id="@+id/answer1f"
+                                style="@style/radioButtons"
+                                android:tag="A"
+                                android:text="@string/answer1Tf" />
+
+                            <RadioButton
+                                android:id="@+id/answer2f"
+                                style="@style/radioButtons"
+                                android:tag="B"
+                                android:text="@string/answer2Tf" />
+
+                            <RadioButton
+                                android:id="@+id/answer3f"
+                                style="@style/radioButtons"
+                                android:tag="C"
+                                android:text="@string/answer3Tf" />
+
+                            <RadioButton
+                                android:id="@+id/answer4f"
+                                style="@style/radioButtons"
+                                android:tag="D"
+                                android:text="@string/answer4Tf" />
+                        </RadioGroup>
+
+                        <LinearLayout style="@style/matchVerticalLayout">
+
+                            <TextView
+                                style="@style/answers"
+                                android:text="@string/answer1f" />
+
+                            <TextView
+                                style="@style/answers"
+                                android:text="@string/answer2f" />
+
+                            <TextView
+                                style="@style/answers"
+                                android:text="@string/answer3f" />
+
+                            <TextView
+                                style="@style/answers"
+                                android:text="@string/answer4f" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+            <!-- Question 8g -->
+            <android.support.v7.widget.CardView style="@style/cards">
+
+                <LinearLayout style="@style/layoutInsideCard">
+
+                    <ImageView
+                        style="@style/cardImageView"
+                        android:src="@drawable/answer8" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="340dp">
+
+                        <RadioGroup
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent">
+
+                            <RadioButton
+                                android:id="@+id/answer1g"
+                                style="@style/radioButtons"
+                                android:tag="A"
+                                android:text="@string/answer1Tg" />
+
+                            <RadioButton
+                                android:id="@+id/answer2g"
+                                style="@style/radioButtons"
+                                android:tag="B"
+                                android:text="@string/answer2Tg" />
+
+                            <RadioButton
+                                android:id="@+id/answer3g"
+                                style="@style/radioButtons"
+                                android:tag="C"
+                                android:text="@string/answer3Tg" />
+
+                            <RadioButton
+                                android:id="@+id/answer4g"
+                                style="@style/radioButtons"
+                                android:tag="D"
+                                android:text="@string/answer4Tg" />
+                        </RadioGroup>
+
+                        <LinearLayout style="@style/matchVerticalLayout">
+
+                            <TextView
+                                style="@style/answers"
+                                android:text="@string/answer1g" />
+
+                            <TextView
+                                style="@style/answers"
+                                android:text="@string/answer2g" />
+
+                            <TextView
+                                style="@style/answers"
+                                android:text="@string/answer3g" />
+
+                            <TextView
+                                style="@style/answers"
+                                android:text="@string/answer4g" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+            <!-- Question 9h -->
+            <android.support.v7.widget.CardView style="@style/cards">
+
+                <LinearLayout style="@style/layoutInsideCard">
+
+                    <ImageView
+                        style="@style/cardImageView"
+                        android:src="@drawable/answer9" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="250dp">
+
+                        <RadioGroup
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent">
+
+                            <RadioButton
+                                android:id="@+id/answer1h"
+                                style="@style/radioButtons"
+                                android:tag="A"
+                                android:text="@string/answer1Th" />
+
+                            <RadioButton
+                                android:id="@+id/answer2h"
+                                style="@style/radioButtons"
+                                android:tag="B"
+                                android:text="@string/answer2Th" />
+
+                            <RadioButton
+                                android:id="@+id/answer3h"
+                                style="@style/radioButtons"
+                                android:tag="C"
+                                android:text="@string/answer3Th" />
+
+                            <RadioButton
+                                android:id="@+id/answer4h"
+                                style="@style/radioButtons"
+                                android:tag="D"
+                                android:text="@string/answer4Th" />
+                        </RadioGroup>
+
+                        <LinearLayout style="@style/matchVerticalLayout">
+
+                            <TextView
+                                style="@style/answers"
+                                android:text="@string/answer1h" />
+
+                            <TextView
+                                style="@style/answers"
+                                android:text="@string/answer2h" />
+
+                            <TextView
+                                style="@style/answers"
+                                android:text="@string/answer3h" />
+
+                            <TextView
+                                style="@style/answers"
+                                android:text="@string/answer4h" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+            <!-- Question 10i -->
+            <android.support.v7.widget.CardView style="@style/cards">
+
+                <LinearLayout style="@style/layoutInsideCard">
+
+                    <ImageView
+                        style="@style/cardImageView"
+                        android:src="@drawable/answer10" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="360dp">
+
+                        <RadioGroup
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent">
+
+                            <RadioButton
+                                android:id="@+id/answer1i"
+                                style="@style/radioButtons"
+                                android:tag="A"
+                                android:text="@string/answer1Ti" />
+
+                            <RadioButton
+                                android:id="@+id/answer2i"
+                                style="@style/radioButtons"
+                                android:tag="B"
+                                android:text="@string/answer2Ti" />
+
+                            <RadioButton
+                                android:id="@+id/answer3i"
+                                style="@style/radioButtons"
+                                android:tag="C"
+                                android:text="@string/answer3Ti" />
+
+                            <RadioButton
+                                android:id="@+id/answer4i"
+                                style="@style/radioButtons"
+                                android:tag="D"
+                                android:text="@string/answer4Ti" />
+                        </RadioGroup>
+
+                        <LinearLayout style="@style/matchVerticalLayout">
+
+                            <TextView
+                                style="@style/answers"
+                                android:text="@string/answer1i" />
+
+                            <TextView
+                                style="@style/answers"
+                                android:text="@string/answer2i" />
+
+                            <TextView
+                                style="@style/answers"
+                                android:text="@string/answer3i" />
+
+                            <TextView
+                                style="@style/answers"
+                                android:text="@string/answer4i" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+            <!-- Question 11j -->
+            <android.support.v7.widget.CardView style="@style/cards">
+
+                <LinearLayout style="@style/layoutInsideCard">
+
+                    <ImageView
+                        style="@style/cardImageView"
+                        android:src="@drawable/answer11" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="300dp">
+
+                        <RadioGroup
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent">
+
+                            <RadioButton
+                                android:id="@+id/answer1j"
+                                style="@style/radioButtons"
+                                android:tag="A"
+                                android:text="@string/answer1Tj" />
+
+                            <RadioButton
+                                android:id="@+id/answer2j"
+                                style="@style/radioButtons"
+                                android:tag="B"
+                                android:text="@string/answer2Tj" />
+
+                            <RadioButton
+                                android:id="@+id/answer3j"
+                                style="@style/radioButtons"
+                                android:tag="C"
+                                android:text="@string/answer3Tj" />
+
+                            <RadioButton
+                                android:id="@+id/answer4j"
+                                style="@style/radioButtons"
+                                android:tag="D"
+                                android:text="@string/answer4Tj" />
+                        </RadioGroup>
+
+                        <LinearLayout style="@style/matchVerticalLayout">
+
+                            <TextView
+                                style="@style/answers"
+                                android:text="@string/answer1j" />
+
+                            <TextView
+                                style="@style/answers"
+                                android:text="@string/answer2j" />
+
+                            <TextView
+                                style="@style/answers"
+                                android:text="@string/answer3j" />
+
+                            <TextView
+                                style="@style/answers"
+                                android:text="@string/answer4j" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+            <!-- Question 12k -->
+            <android.support.v7.widget.CardView style="@style/cards">
+
+                <LinearLayout style="@style/layoutInsideCard">
+
+                    <ImageView
+                        style="@style/cardImageView"
+                        android:src="@drawable/answer12" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="250dp">
+
+                        <RadioGroup
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent">
+
+                            <RadioButton
+                                android:id="@+id/answer1k"
+                                style="@style/radioButtons"
+                                android:tag="A"
+                                android:text="@string/answer1Tk" />
+
+                            <RadioButton
+                                android:id="@+id/answer2k"
+                                style="@style/radioButtons"
+                                android:tag="B"
+                                android:text="@string/answer2Tk" />
+
+                            <RadioButton
+                                android:id="@+id/answer3k"
+                                style="@style/radioButtons"
+                                android:tag="C"
+                                android:text="@string/answer3Tk" />
+
+                            <RadioButton
+                                android:id="@+id/answer4k"
+                                style="@style/radioButtons"
+                                android:tag="D"
+                                android:text="@string/answer4Tk" />
+                        </RadioGroup>
+
+                        <LinearLayout style="@style/matchVerticalLayout">
+
+                            <TextView
+                                style="@style/answers"
+                                android:text="@string/answer1k" />
+
+                            <TextView
+                                style="@style/answers"
+                                android:text="@string/answer2k" />
+
+                            <TextView
+                                style="@style/answers"
+                                android:text="@string/answer3k" />
+
+                            <TextView
+                                style="@style/answers"
+                                android:text="@string/answer4k" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+            <!-- Question 13l -->
+            <android.support.v7.widget.CardView style="@style/cards">
+
+                <LinearLayout style="@style/layoutInsideCard">
+
+                    <ImageView
+                        style="@style/cardImageView"
+                        android:src="@drawable/answer13" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="340dp">
+
+                        <RadioGroup
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent">
+
+                            <RadioButton
+                                android:id="@+id/answer1l"
+                                style="@style/radioButtons"
+                                android:tag="A"
+                                android:text="@string/answer1Tl" />
+
+                            <RadioButton
+                                android:id="@+id/answer2l"
+                                style="@style/radioButtons"
+                                android:tag="B"
+                                android:text="@string/answer2Tl" />
+
+                            <RadioButton
+                                android:id="@+id/answer3l"
+                                style="@style/radioButtons"
+                                android:tag="C"
+                                android:text="@string/answer3Tl" />
+
+                            <RadioButton
+                                android:id="@+id/answer4l"
+                                style="@style/radioButtons"
+                                android:tag="D"
+                                android:text="@string/answer4Tl" />
+                        </RadioGroup>
+
+                        <LinearLayout style="@style/matchVerticalLayout">
+
+                            <TextView
+                                style="@style/answers"
+                                android:text="@string/answer1l" />
+
+                            <TextView
+                                style="@style/answers"
+                                android:text="@string/answer2l" />
+
+                            <TextView
+                                style="@style/answers"
+                                android:text="@string/answer3l" />
+
+                            <TextView
+                                style="@style/answers"
+                                android:text="@string/answer4l" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+            <!-- Question 14m -->
+            <android.support.v7.widget.CardView style="@style/cards">
+
+                <LinearLayout style="@style/layoutInsideCard">
+
+                    <ImageView
+                        style="@style/cardImageView"
+                        android:src="@drawable/answer14" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="300dp">
+
+                        <RadioGroup
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent">
+
+                            <RadioButton
+                                android:id="@+id/answer1m"
+                                style="@style/radioButtons"
+                                android:tag="A"
+                                android:text="@string/answer1Tm" />
+
+                            <RadioButton
+                                android:id="@+id/answer2m"
+                                style="@style/radioButtons"
+                                android:tag="B"
+                                android:text="@string/answer2Tm" />
+
+                            <RadioButton
+                                android:id="@+id/answer3m"
+                                style="@style/radioButtons"
+                                android:tag="C"
+                                android:text="@string/answer3Tm" />
+
+                            <RadioButton
+                                android:id="@+id/answer4m"
+                                style="@style/radioButtons"
+                                android:tag="D"
+                                android:text="@string/answer4Tm" />
+                        </RadioGroup>
+
+                        <LinearLayout style="@style/matchVerticalLayout">
+
+                            <TextView
+                                style="@style/answers"
+                                android:text="@string/answer1m" />
+
+                            <TextView
+                                style="@style/answers"
+                                android:text="@string/answer2m" />
+
+                            <TextView
+                                style="@style/answers"
+                                android:text="@string/answer3m" />
+
+                            <TextView
+                                style="@style/answers"
+                                android:text="@string/answer4m" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+            <!-- Question 15n -->
+            <android.support.v7.widget.CardView style="@style/cards">
+
+                <LinearLayout style="@style/layoutInsideCard">
+
+                    <ImageView
+                        style="@style/cardImageView"
+                        android:src="@drawable/answer15" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="350dp">
+
+                        <RadioGroup
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent">
+
+                            <RadioButton
+                                android:id="@+id/answer1n"
+                                style="@style/radioButtons"
+                                android:tag="A"
+                                android:text="@string/answer1Tn" />
+
+                            <RadioButton
+                                android:id="@+id/answer2n"
+                                style="@style/radioButtons"
+                                android:tag="B"
+                                android:text="@string/answer2Tn" />
+
+                            <RadioButton
+                                android:id="@+id/answer3n"
+                                style="@style/radioButtons"
+                                android:tag="C"
+                                android:text="@string/answer3Tn" />
+
+                            <RadioButton
+                                android:id="@+id/answer4n"
+                                style="@style/radioButtons"
+                                android:tag="D"
+                                android:text="@string/answer4Tn" />
+                        </RadioGroup>
+
+                        <LinearLayout style="@style/matchVerticalLayout">
+
+                            <TextView
+                                style="@style/answers"
+                                android:text="@string/answer1n" />
+
+                            <TextView
+                                style="@style/answers"
+                                android:text="@string/answer2n" />
+
+                            <TextView
+                                style="@style/answers"
+                                android:text="@string/answer3n" />
+
+                            <TextView
+                                style="@style/answers"
+                                android:text="@string/answer4n" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+            <!-- Question 16o -->
+            <android.support.v7.widget.CardView style="@style/cards">
+
+                <LinearLayout style="@style/layoutInsideCard">
+
+                    <ImageView
+                        style="@style/cardImageView"
+                        android:src="@drawable/answer16" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <RadioGroup
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent">
+
+                            <RadioButton
+                                android:id="@+id/answer1o"
+                                style="@style/radioButtons"
+                                android:tag="A"
+                                android:text="@string/answer1To" />
+
+                            <RadioButton
+                                android:id="@+id/answer2o"
+                                style="@style/radioButtons"
+                                android:tag="B"
+                                android:text="@string/answer2To" />
+
+                            <RadioButton
+                                android:id="@+id/answer3o"
+                                style="@style/radioButtons"
+                                android:tag="C"
+                                android:text="@string/answer3To" />
+
+                            <RadioButton
+                                android:id="@+id/answer4o"
+                                style="@style/radioButtons"
+                                android:tag="D"
+                                android:text="@string/answer4To" />
+                        </RadioGroup>
+
+                        <LinearLayout style="@style/matchVerticalLayout">
+
+                            <TextView
+                                style="@style/answers"
+                                android:text="@string/answer1o" />
+
+                            <TextView
+                                style="@style/answers"
+                                android:text="@string/answer2o" />
+
+                            <TextView
+                                style="@style/answers"
+                                android:text="@string/answer3o" />
+
+                            <TextView
+                                style="@style/answers"
+                                android:text="@string/answer4o" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+            <!-- Question 17p -->
+            <android.support.v7.widget.CardView style="@style/cards">
+
+                <LinearLayout style="@style/layoutInsideCard">
+
+                    <ImageView
+                        style="@style/cardImageView"
+                        android:src="@drawable/answer17" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="345dp">
+
+                        <RadioGroup
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent">
+
+                            <RadioButton
+                                android:id="@+id/answer1p"
+                                style="@style/radioButtons"
+                                android:tag="A"
+                                android:text="@string/answer1Tp" />
+
+                            <RadioButton
+                                android:id="@+id/answer2p"
+                                style="@style/radioButtons"
+                                android:tag="B"
+                                android:text="@string/answer2Tp" />
+
+                            <RadioButton
+                                android:id="@+id/answer3p"
+                                style="@style/radioButtons"
+                                android:tag="C"
+                                android:text="@string/answer3Tp" />
+
+                            <RadioButton
+                                android:id="@+id/answer4p"
+                                style="@style/radioButtons"
+                                android:tag="D"
+                                android:text="@string/answer4Tp" />
+                        </RadioGroup>
+
+                        <LinearLayout style="@style/matchVerticalLayout">
+
+                            <TextView
+                                style="@style/answers"
+                                android:text="@string/answer1p" />
+
+                            <TextView
+                                style="@style/answers"
+                                android:text="@string/answer2p" />
+
+                            <TextView
+                                style="@style/answers"
+                                android:text="@string/answer3p" />
+
+                            <TextView
+                                style="@style/answers"
+                                android:text="@string/answer4p" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+            <!-- Question 18r -->
+            <android.support.v7.widget.CardView style="@style/cards">
+
+                <LinearLayout style="@style/layoutInsideCard">
+
+                    <ImageView
+                        style="@style/cardImageView"
+                        android:src="@drawable/answer18" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="250dp">
+
+                        <RadioGroup
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent">
+
+                            <RadioButton
+                                android:id="@+id/answer1r"
+                                style="@style/radioButtons"
+                                android:tag="A"
+                                android:text="@string/answer1Tr" />
+
+                            <RadioButton
+                                android:id="@+id/answer2r"
+                                style="@style/radioButtons"
+                                android:tag="B"
+                                android:text="@string/answer2Tr" />
+
+                            <RadioButton
+                                android:id="@+id/answer3r"
+                                style="@style/radioButtons"
+                                android:tag="C"
+                                android:text="@string/answer3Tr" />
+
+                            <RadioButton
+                                android:id="@+id/answer4r"
+                                style="@style/radioButtons"
+                                android:tag="D"
+                                android:text="@string/answer4Tr" />
+                        </RadioGroup>
+
+                        <LinearLayout style="@style/matchVerticalLayout">
+
+                            <TextView
+                                style="@style/answers"
+                                android:text="@string/answer1r" />
+
+                            <TextView
+                                style="@style/answers"
+                                android:text="@string/answer2r" />
+
+                            <TextView
+                                style="@style/answers"
+                                android:text="@string/answer3r" />
+
+                            <TextView
+                                style="@style/answers"
+                                android:text="@string/answer4r" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+            <!-- Question 19s -->
+            <android.support.v7.widget.CardView style="@style/cards">
+
+                <LinearLayout style="@style/layoutInsideCard">
+
+                    <ImageView
+                        style="@style/cardImageView"
+                        android:src="@drawable/answer19" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="250dp">
+
+                        <RadioGroup
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent">
+
+                            <RadioButton
+                                android:id="@+id/answer1s"
+                                style="@style/radioButtons"
+                                android:tag="A"
+                                android:text="@string/answer1Ts" />
+
+                            <RadioButton
+                                android:id="@+id/answer2s"
+                                style="@style/radioButtons"
+                                android:tag="B"
+                                android:text="@string/answer2Ts" />
+
+                            <RadioButton
+                                android:id="@+id/answer3s"
+                                style="@style/radioButtons"
+                                android:tag="C"
+                                android:text="@string/answer3Ts" />
+
+                            <RadioButton
+                                android:id="@+id/answer4s"
+                                style="@style/radioButtons"
+                                android:tag="D"
+                                android:text="@string/answer4Ts" />
+                        </RadioGroup>
+
+                        <LinearLayout style="@style/matchVerticalLayout">
+
+                            <TextView
+                                style="@style/answers"
+                                android:text="@string/answer1s" />
+
+                            <TextView
+                                style="@style/answers"
+                                android:text="@string/answer2s" />
+
+                            <TextView
+                                style="@style/answers"
+                                android:text="@string/answer3s" />
+
+                            <TextView
+                                style="@style/answers"
+                                android:text="@string/answer4s" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+            <!-- Question 20t -->
+            <android.support.v7.widget.CardView style="@style/cards">
+
+                <LinearLayout style="@style/layoutInsideCard">
+
+                    <ImageView
+                        style="@style/cardImageView"
+                        android:src="@drawable/answer20" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="250dp">
+
+                        <RadioGroup
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent">
+
+                            <RadioButton
+                                android:id="@+id/answer1t"
+                                style="@style/radioButtons"
+                                android:tag="A"
+                                android:text="@string/answer1Tt" />
+
+                            <RadioButton
+                                android:id="@+id/answer2t"
+                                style="@style/radioButtons"
+                                android:tag="B"
+                                android:text="@string/answer2Tt" />
+
+                            <RadioButton
+                                android:id="@+id/answer3t"
+                                style="@style/radioButtons"
+                                android:tag="C"
+                                android:text="@string/answer3Tt" />
+
+                            <RadioButton
+                                android:id="@+id/answer4t"
+                                style="@style/radioButtons"
+                                android:tag="D"
+                                android:text="@string/answer4Tt" />
+                        </RadioGroup>
+
+                        <LinearLayout style="@style/matchVerticalLayout">
+
+                            <TextView
+                                style="@style/answers"
+                                android:text="@string/answer1t" />
+
+                            <TextView
+                                style="@style/answers"
+                                android:text="@string/answer2t" />
+
+                            <TextView
+                                style="@style/answers"
+                                android:text="@string/answer3t" />
+
+                            <TextView
+                                style="@style/answers"
+                                android:text="@string/answer4t" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+            <!-- Question 21u -->
+            <android.support.v7.widget.CardView style="@style/cards">
+
+                <LinearLayout style="@style/layoutInsideCard">
+
+                    <ImageView
+                        style="@style/cardImageView"
+                        android:src="@drawable/answer21" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="285dp">
+
+                        <RadioGroup
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent">
+
+                            <RadioButton
+                                android:id="@+id/answer1u"
+                                style="@style/radioButtons"
+                                android:tag="A"
+                                android:text="@string/answer1Tu" />
+
+                            <RadioButton
+                                android:id="@+id/answer2u"
+                                style="@style/radioButtons"
+                                android:tag="B"
+                                android:text="@string/answer2Tu" />
+
+                            <RadioButton
+                                android:id="@+id/answer3u"
+                                style="@style/radioButtons"
+                                android:tag="C"
+                                android:text="@string/answer3Tu" />
+
+                            <RadioButton
+                                android:id="@+id/answer4u"
+                                style="@style/radioButtons"
+                                android:tag="D"
+                                android:text="@string/answer4Tu" />
+                        </RadioGroup>
+
+                        <LinearLayout style="@style/matchVerticalLayout">
+
+                            <TextView
+                                style="@style/answers"
+                                android:text="@string/answer1u" />
+
+                            <TextView
+                                style="@style/answers"
+                                android:text="@string/answer2u" />
+
+                            <TextView
+                                style="@style/answers"
+                                android:text="@string/answer3u" />
+
+                            <TextView
+                                style="@style/answers"
+                                android:text="@string/answer4u" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+            <!-- Question 22w -->
+            <android.support.v7.widget.CardView style="@style/cards">
+
+                <LinearLayout style="@style/layoutInsideCard">
+
+                    <ImageView
+                        style="@style/cardImageView"
+                        android:src="@drawable/answer22" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="285dp">
+
+                        <RadioGroup
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent">
+
+                            <RadioButton
+                                android:id="@+id/answer1w"
+                                style="@style/radioButtons"
+                                android:tag="A"
+                                android:text="@string/answer1Tw" />
+
+                            <RadioButton
+                                android:id="@+id/answer2w"
+                                style="@style/radioButtons"
+                                android:tag="B"
+                                android:text="@string/answer2Tw" />
+
+                            <RadioButton
+                                android:id="@+id/answer3w"
+                                style="@style/radioButtons"
+                                android:tag="C"
+                                android:text="@string/answer3Tw" />
+
+                            <RadioButton
+                                android:id="@+id/answer4w"
+                                style="@style/radioButtons"
+                                android:tag="D"
+                                android:text="@string/answer4Tw" />
+                        </RadioGroup>
+
+                        <LinearLayout style="@style/matchVerticalLayout">
+
+                            <TextView
+                                style="@style/answers"
+                                android:text="@string/answer1w" />
+
+                            <TextView
+                                style="@style/answers"
+                                android:text="@string/answer2w" />
+
+                            <TextView
+                                style="@style/answers"
+                                android:text="@string/answer3w" />
+
+                            <TextView
+                                style="@style/answers"
+                                android:text="@string/answer4w" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+            <!-- Question 23x -->
+            <android.support.v7.widget.CardView style="@style/cards">
+
+                <LinearLayout style="@style/layoutInsideCard">
+
+                    <ImageView
+                        style="@style/cardImageView"
+                        android:src="@drawable/answer23" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="300dp">
+
+                        <RadioGroup
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent">
+
+                            <RadioButton
+                                android:id="@+id/answer1x"
+                                style="@style/radioButtons"
+                                android:tag="A"
+                                android:text="@string/answer1Tx" />
+
+                            <RadioButton
+                                android:id="@+id/answer2x"
+                                style="@style/radioButtons"
+                                android:tag="B"
+                                android:text="@string/answer2Tx" />
+
+                            <RadioButton
+                                android:id="@+id/answer3x"
+                                style="@style/radioButtons"
+                                android:tag="C"
+                                android:text="@string/answer3Tx" />
+
+                            <RadioButton
+                                android:id="@+id/answer4x"
+                                style="@style/radioButtons"
+                                android:tag="D"
+                                android:text="@string/answer4Tx" />
+                        </RadioGroup>
+
+                        <LinearLayout style="@style/matchVerticalLayout">
+
+                            <TextView
+                                style="@style/answers"
+                                android:text="@string/answer1x" />
+
+                            <TextView
+                                style="@style/answers"
+                                android:text="@string/answer2x" />
+
+                            <TextView
+                                style="@style/answers"
+                                android:text="@string/answer3x" />
+
+                            <TextView
+                                style="@style/answers"
+                                android:text="@string/answer4x" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+            <!-- Question 24y -->
+            <android.support.v7.widget.CardView style="@style/cards">
+
+                <LinearLayout style="@style/layoutInsideCard">
+
+                    <ImageView
+                        style="@style/cardImageView"
+                        android:src="@drawable/answer24" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="250dp">
+
+                        <RadioGroup
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent">
+
+                            <RadioButton
+                                android:id="@+id/answer1y"
+                                style="@style/radioButtons"
+                                android:tag="A"
+                                android:text="@string/answer1Ty" />
+
+                            <RadioButton
+                                android:id="@+id/answer2y"
+                                style="@style/radioButtons"
+                                android:tag="B"
+                                android:text="@string/answer2Ty" />
+
+                            <RadioButton
+                                android:id="@+id/answer3y"
+                                style="@style/radioButtons"
+                                android:tag="C"
+                                android:text="@string/answer3Ty" />
+
+                            <RadioButton
+                                android:id="@+id/answer4y"
+                                style="@style/radioButtons"
+                                android:tag="D"
+                                android:text="@string/answer4Ty" />
+                        </RadioGroup>
+
+                        <LinearLayout style="@style/matchVerticalLayout">
+
+                            <TextView
+                                style="@style/answers"
+                                android:text="@string/answer1y" />
+
+                            <TextView
+                                style="@style/answers"
+                                android:text="@string/answer2y" />
+
+                            <TextView
+                                style="@style/answers"
+                                android:text="@string/answer3y" />
+
+                            <TextView
+                                style="@style/answers"
+                                android:text="@string/answer4y" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+            <!-- Question 25z -->
+            <android.support.v7.widget.CardView style="@style/cards">
+
+                <LinearLayout style="@style/layoutInsideCard">
+
+                    <ImageView
+                        style="@style/cardImageView"
+                        android:src="@drawable/answer25" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="340dp">
+
+                        <RadioGroup
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent">
+
+                            <RadioButton
+                                android:id="@+id/answer1z"
+                                style="@style/radioButtons"
+                                android:tag="A"
+                                android:text="@string/answer1Tz" />
+
+                            <RadioButton
+                                android:id="@+id/answer2z"
+                                style="@style/radioButtons"
+                                android:tag="B"
+                                android:text="@string/answer2Tz" />
+
+                            <RadioButton
+                                android:id="@+id/answer3z"
+                                style="@style/radioButtons"
+                                android:tag="C"
+                                android:text="@string/answer3Tz" />
+
+                            <RadioButton
+                                android:id="@+id/answer4z"
+                                style="@style/radioButtons"
+                                android:tag="D"
+                                android:text="@string/answer4Tz" />
+                        </RadioGroup>
+
+                        <LinearLayout style="@style/matchVerticalLayout">
+
+                            <TextView
+                                style="@style/answers"
+                                android:text="@string/answer1z" />
+
+                            <TextView
+                                style="@style/answers"
+                                android:text="@string/answer2z" />
+
+                            <TextView
+                                style="@style/answers"
+                                android:text="@string/answer3z" />
+
+                            <TextView
+                                style="@style/answers"
+                                android:text="@string/answer4z" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+            <!-- Question 26aa -->
+            <android.support.v7.widget.CardView style="@style/cards">
+
+                <LinearLayout style="@style/layoutInsideCard">
+
+                    <ImageView
+                        style="@style/cardImageView"
+                        android:src="@drawable/answer26" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="350dp">
+
+                        <RadioGroup
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent">
+
+                            <RadioButton
+                                android:id="@+id/answer1aa"
+                                style="@style/radioButtons"
+                                android:tag="A"
+                                android:text="@string/answer1Taa" />
+
+                            <RadioButton
+                                android:id="@+id/answer2aa"
+                                style="@style/radioButtons"
+                                android:tag="B"
+                                android:text="@string/answer2Taa" />
+
+                            <RadioButton
+                                android:id="@+id/answer3aa"
+                                style="@style/radioButtons"
+                                android:tag="C"
+                                android:text="@string/answer3Taa" />
+
+                            <RadioButton
+                                android:id="@+id/answer4aa"
+                                style="@style/radioButtons"
+                                android:tag="D"
+                                android:text="@string/answer4Taa" />
+                        </RadioGroup>
+
+                        <LinearLayout style="@style/matchVerticalLayout">
+
+                            <TextView
+                                style="@style/answers"
+                                android:text="@string/answer1aa" />
+
+                            <TextView
+                                style="@style/answers"
+                                android:text="@string/answer2aa" />
+
+                            <TextView
+                                style="@style/answers"
+                                android:text="@string/answer3aa" />
+
+                            <TextView
+                                style="@style/answers"
+                                android:text="@string/answer4aa" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+            <!-- Question 27ab -->
+            <android.support.v7.widget.CardView style="@style/cards">
+
+                <LinearLayout style="@style/layoutInsideCard">
+
+                    <ImageView
+                        style="@style/cardImageView"
+                        android:src="@drawable/answer27" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="250dp">
+
+                        <RadioGroup
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent">
+
+                            <RadioButton
+                                android:id="@+id/answer1ab"
+                                style="@style/radioButtons"
+                                android:tag="A"
+                                android:text="@string/answer1Tab" />
+
+                            <RadioButton
+                                android:id="@+id/answer2ab"
+                                style="@style/radioButtons"
+                                android:tag="B"
+                                android:text="@string/answer2Tab" />
+
+                            <RadioButton
+                                android:id="@+id/answer3ab"
+                                style="@style/radioButtons"
+                                android:tag="C"
+                                android:text="@string/answer3Tab" />
+
+                            <RadioButton
+                                android:id="@+id/answer4ab"
+                                style="@style/radioButtons"
+                                android:tag="D"
+                                android:text="@string/answer4Tab" />
+                        </RadioGroup>
+
+                        <LinearLayout style="@style/matchVerticalLayout">
+
+                            <TextView
+                                style="@style/answers"
+                                android:text="@string/answer1ab" />
+
+                            <TextView
+                                style="@style/answers"
+                                android:text="@string/answer2ab" />
+
+                            <TextView
+                                style="@style/answers"
+                                android:text="@string/answer3ab" />
+
+                            <TextView
+                                style="@style/answers"
+                                android:text="@string/answer4ab" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+            <!-- Question 28ac -->
+            <android.support.v7.widget.CardView style="@style/cards">
+
+                <LinearLayout style="@style/layoutInsideCard">
+
+                    <ImageView
+                        style="@style/cardImageView"
+                        android:src="@drawable/answer28" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="280dp">
+
+                        <RadioGroup
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent">
+
+                            <RadioButton
+                                android:id="@+id/answer1ac"
+                                style="@style/radioButtons"
+                                android:tag="A"
+                                android:text="@string/answer1Tac" />
+
+                            <RadioButton
+                                android:id="@+id/answer2ac"
+                                style="@style/radioButtons"
+                                android:tag="B"
+                                android:text="@string/answer2Tac" />
+
+                            <RadioButton
+                                android:id="@+id/answer3ac"
+                                style="@style/radioButtons"
+                                android:tag="C"
+                                android:text="@string/answer3Tac" />
+
+                            <RadioButton
+                                android:id="@+id/answer4ac"
+                                style="@style/radioButtons"
+                                android:tag="D"
+                                android:text="@string/answer4Tac" />
+                        </RadioGroup>
+
+                        <LinearLayout style="@style/matchVerticalLayout">
+
+                            <TextView
+                                style="@style/answers"
+                                android:text="@string/answer1ac" />
+
+                            <TextView
+                                style="@style/answers"
+                                android:text="@string/answer2ac" />
+
+                            <TextView
+                                style="@style/answers"
+                                android:text="@string/answer3ac" />
+
+                            <TextView
+                                style="@style/answers"
+                                android:text="@string/answer4ac" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+            <!-- Question 29ad -->
+            <android.support.v7.widget.CardView style="@style/cards">
+
+                <LinearLayout style="@style/layoutInsideCard">
+
+                    <ImageView
+                        style="@style/cardImageView"
+                        android:src="@drawable/answer29" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="350dp">
+
+                        <RadioGroup
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent">
+
+                            <RadioButton
+                                android:id="@+id/answer1ad"
+                                style="@style/radioButtons"
+                                android:tag="A"
+                                android:text="@string/answer1Tad" />
+
+                            <RadioButton
+                                android:id="@+id/answer2ad"
+                                style="@style/radioButtons"
+                                android:tag="B"
+                                android:text="@string/answer2Tad" />
+
+                            <RadioButton
+                                android:id="@+id/answer3ad"
+                                style="@style/radioButtons"
+                                android:tag="C"
+                                android:text="@string/answer3Tad" />
+
+                            <RadioButton
+                                android:id="@+id/answer4ad"
+                                style="@style/radioButtons"
+                                android:tag="D"
+                                android:text="@string/answer4Tad" />
+                        </RadioGroup>
+
+                        <LinearLayout style="@style/matchVerticalLayout">
+
+                            <TextView
+                                style="@style/answers"
+                                android:text="@string/answer1ad" />
+
+                            <TextView
+                                style="@style/answers"
+                                android:text="@string/answer2ad" />
+
+                            <TextView
+                                style="@style/answers"
+                                android:text="@string/answer3ad" />
+
+                            <TextView
+                                style="@style/answers"
+                                android:text="@string/answer4ad" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+            <!-- Question 30ae -->
+            <android.support.v7.widget.CardView style="@style/cards">
+
+                <LinearLayout style="@style/layoutInsideCard">
+
+                    <ImageView
+                        style="@style/cardImageView"
+                        android:src="@drawable/answer30" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="280dp">
+
+                        <RadioGroup
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent">
+
+                            <RadioButton
+                                android:id="@+id/answer1ae"
+                                style="@style/radioButtons"
+                                android:tag="A"
+                                android:text="@string/answer1Tae" />
+
+                            <RadioButton
+                                android:id="@+id/answer2ae"
+                                style="@style/radioButtons"
+                                android:tag="B"
+                                android:text="@string/answer2Tae" />
+
+                            <RadioButton
+                                android:id="@+id/answer3ae"
+                                style="@style/radioButtons"
+                                android:tag="C"
+                                android:text="@string/answer3Tae" />
+
+                            <RadioButton
+                                android:id="@+id/answer4ae"
+                                style="@style/radioButtons"
+                                android:tag="D"
+                                android:text="@string/answer4Tae" />
+                        </RadioGroup>
+
+                        <LinearLayout style="@style/matchVerticalLayout">
+
+                            <TextView
+                                style="@style/answers"
+                                android:text="@string/answer1ae" />
+
+                            <TextView
+                                style="@style/answers"
+                                android:text="@string/answer2ae" />
+
+                            <TextView
+                                style="@style/answers"
+                                android:text="@string/answer3ae" />
+
+                            <TextView
+                                style="@style/answers"
+                                android:text="@string/answer4ae" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+            <!-- Question 31af -->
+            <android.support.v7.widget.CardView style="@style/cards">
+
+                <LinearLayout style="@style/layoutInsideCard">
+
+                    <ImageView
+                        style="@style/cardImageView"
+                        android:src="@drawable/answer31" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="370dp">
+
+                        <RadioGroup
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent">
+
+                            <RadioButton
+                                android:id="@+id/answer1af"
+                                style="@style/radioButtons"
+                                android:tag="A"
+                                android:text="@string/answer1Taf" />
+
+                            <RadioButton
+                                android:id="@+id/answer2af"
+                                style="@style/radioButtons"
+                                android:tag="B"
+                                android:text="@string/answer2Taf" />
+
+                            <RadioButton
+                                android:id="@+id/answer3af"
+                                style="@style/radioButtons"
+                                android:tag="C"
+                                android:text="@string/answer3Taf" />
+
+                            <RadioButton
+                                android:id="@+id/answer4af"
+                                style="@style/radioButtons"
+                                android:tag="D"
+                                android:text="@string/answer4Taf" />
+                        </RadioGroup>
+
+                        <LinearLayout style="@style/matchVerticalLayout">
+
+                            <TextView
+                                style="@style/answers"
+                                android:text="@string/answer1af" />
+
+                            <TextView
+                                style="@style/answers"
+                                android:text="@string/answer2af" />
+
+                            <TextView
+                                style="@style/answers"
+                                android:text="@string/answer3af" />
+
+                            <TextView
+                                style="@style/answers"
+                                android:text="@string/answer4af" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+            <!-- Question 32ag -->
+            <android.support.v7.widget.CardView style="@style/cards">
+
+                <LinearLayout style="@style/layoutInsideCard">
+
+                    <ImageView
+                        style="@style/cardImageView"
+                        android:src="@drawable/answer32" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="280dp">
+
+                        <RadioGroup
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent">
+
+                            <RadioButton
+                                android:id="@+id/answer1ag"
+                                style="@style/radioButtons"
+                                android:tag="A"
+                                android:text="@string/answer1Tag" />
+
+                            <RadioButton
+                                android:id="@+id/answer2ag"
+                                style="@style/radioButtons"
+                                android:tag="B"
+                                android:text="@string/answer2Tag" />
+
+                            <RadioButton
+                                android:id="@+id/answer3ag"
+                                style="@style/radioButtons"
+                                android:tag="C"
+                                android:text="@string/answer3Tag" />
+
+                            <RadioButton
+                                android:id="@+id/answer4ag"
+                                style="@style/radioButtons"
+                                android:tag="D"
+                                android:text="@string/answer4Tag" />
+                        </RadioGroup>
+
+                        <LinearLayout style="@style/matchVerticalLayout">
+
+                            <TextView
+                                style="@style/answers"
+                                android:text="@string/answer1ag" />
+
+                            <TextView
+                                style="@style/answers"
+                                android:text="@string/answer2ag" />
+
+                            <TextView
+                                style="@style/answers"
+                                android:text="@string/answer3ag" />
+
+                            <TextView
+                                style="@style/answers"
+                                android:text="@string/answer4ag" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+            <!-- Question 33ah -->
+            <android.support.v7.widget.CardView style="@style/cards">
+
+                <LinearLayout style="@style/layoutInsideCard">
+
+                    <ImageView
+                        style="@style/cardImageView"
+                        android:src="@drawable/answer33" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="350dp">
+
+                        <RadioGroup
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent">
+
+                            <RadioButton
+                                android:id="@+id/answer1ah"
+                                style="@style/radioButtons"
+                                android:tag="A"
+                                android:text="@string/answer1Tah" />
+
+                            <RadioButton
+                                android:id="@+id/answer2ah"
+                                style="@style/radioButtons"
+                                android:tag="B"
+                                android:text="@string/answer2Tah" />
+
+                            <RadioButton
+                                android:id="@+id/answer3ah"
+                                style="@style/radioButtons"
+                                android:tag="C"
+                                android:text="@string/answer3Tah" />
+
+                            <RadioButton
+                                android:id="@+id/answer4ah"
+                                style="@style/radioButtons"
+                                android:tag="D"
+                                android:text="@string/answer4Tah" />
+                        </RadioGroup>
+
+                        <LinearLayout style="@style/matchVerticalLayout">
+
+                            <TextView
+                                style="@style/answers"
+                                android:text="@string/answer1ah" />
+
+                            <TextView
+                                style="@style/answers"
+                                android:text="@string/answer2ah" />
+
+                            <TextView
+                                style="@style/answers"
+                                android:text="@string/answer3ah" />
+
+                            <TextView
+                                style="@style/answers"
+                                android:text="@string/answer4ah" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+            <!-- Question 34ai -->
+            <android.support.v7.widget.CardView style="@style/cards">
+
+                <LinearLayout style="@style/layoutInsideCard">
+
+                    <ImageView
+                        style="@style/cardImageView"
+                        android:src="@drawable/answer34" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="290dp">
+
+                        <RadioGroup
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent">
+
+                            <RadioButton
+                                android:id="@+id/answer1ai"
+                                style="@style/radioButtons"
+                                android:tag="A"
+                                android:text="@string/answer1Tai" />
+
+                            <RadioButton
+                                android:id="@+id/answer2ai"
+                                style="@style/radioButtons"
+                                android:tag="B"
+                                android:text="@string/answer2Tai" />
+
+                            <RadioButton
+                                android:id="@+id/answer3ai"
+                                style="@style/radioButtons"
+                                android:tag="C"
+                                android:text="@string/answer3Tai" />
+
+                            <RadioButton
+                                android:id="@+id/answer4ai"
+                                style="@style/radioButtons"
+                                android:tag="D"
+                                android:text="@string/answer4Tai" />
+                        </RadioGroup>
+
+                        <LinearLayout style="@style/matchVerticalLayout">
+
+                            <TextView
+                                style="@style/answers"
+                                android:text="@string/answer1ai" />
+
+                            <TextView
+                                style="@style/answers"
+                                android:text="@string/answer2ai" />
+
+                            <TextView
+                                style="@style/answers"
+                                android:text="@string/answer3ai" />
+
+                            <TextView
+                                style="@style/answers"
+                                android:text="@string/answer4ai" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+            <!-- Question 35aj -->
+            <android.support.v7.widget.CardView style="@style/cards">
+
+                <LinearLayout style="@style/layoutInsideCard">
+
+                    <ImageView
+                        style="@style/cardImageView"
+                        android:src="@drawable/answer35" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="370dp">
+
+                        <RadioGroup
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent">
+
+                            <RadioButton
+                                android:id="@+id/answer1aj"
+                                style="@style/radioButtons"
+                                android:tag="A"
+                                android:text="@string/answer1Taj" />
+
+                            <RadioButton
+                                android:id="@+id/answer2aj"
+                                style="@style/radioButtons"
+                                android:tag="B"
+                                android:text="@string/answer2Taj" />
+
+                            <RadioButton
+                                android:id="@+id/answer3aj"
+                                style="@style/radioButtons"
+                                android:tag="C"
+                                android:text="@string/answer3Taj" />
+
+                            <RadioButton
+                                android:id="@+id/answer4aj"
+                                style="@style/radioButtons"
+                                android:tag="D"
+                                android:text="@string/answer4Taj" />
+                        </RadioGroup>
+
+                        <LinearLayout style="@style/matchVerticalLayout">
+
+                            <TextView
+                                style="@style/answers"
+                                android:text="@string/answer1aj" />
+
+                            <TextView
+                                style="@style/answers"
+                                android:text="@string/answer2aj" />
+
+                            <TextView
+                                style="@style/answers"
+                                android:text="@string/answer3aj" />
+
+                            <TextView
+                                style="@style/answers"
+                                android:text="@string/answer4aj" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+            <!-- Question 36ak -->
+            <android.support.v7.widget.CardView style="@style/cards">
+
+                <LinearLayout style="@style/layoutInsideCard">
+
+                    <ImageView
+                        style="@style/cardImageView"
+                        android:src="@drawable/answer36" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="250dp">
+
+                        <RadioGroup
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent">
+
+                            <RadioButton
+                                android:id="@+id/answer1ak"
+                                style="@style/radioButtons"
+                                android:tag="A"
+                                android:text="@string/answer1Tak" />
+
+                            <RadioButton
+                                android:id="@+id/answer2ak"
+                                style="@style/radioButtons"
+                                android:tag="B"
+                                android:text="@string/answer2Tak" />
+
+                            <RadioButton
+                                android:id="@+id/answer3ak"
+                                style="@style/radioButtons"
+                                android:tag="C"
+                                android:text="@string/answer3Tak" />
+
+                            <RadioButton
+                                android:id="@+id/answer4ak"
+                                style="@style/radioButtons"
+                                android:tag="D"
+                                android:text="@string/answer4Tak" />
+                        </RadioGroup>
+
+                        <LinearLayout style="@style/matchVerticalLayout">
+
+                            <TextView
+                                style="@style/answers"
+                                android:text="@string/answer1ak" />
+
+                            <TextView
+                                style="@style/answers"
+                                android:text="@string/answer2ak" />
+
+                            <TextView
+                                style="@style/answers"
+                                android:text="@string/answer3ak" />
+
+                            <TextView
+                                style="@style/answers"
+                                android:text="@string/answer4ak" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+            <!-- Question 37al -->
+            <android.support.v7.widget.CardView style="@style/cards">
+
+                <LinearLayout style="@style/layoutInsideCard">
+
+                    <ImageView
+                        style="@style/cardImageView"
+                        android:src="@drawable/answer37" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <RadioGroup
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent">
+
+                            <RadioButton
+                                android:id="@+id/answer1al"
+                                style="@style/radioButtons"
+                                android:tag="A"
+                                android:text="@string/answer1Tal" />
+
+                            <RadioButton
+                                android:id="@+id/answer2al"
+                                style="@style/radioButtons"
+                                android:tag="B"
+                                android:text="@string/answer2Tal" />
+
+                            <RadioButton
+                                android:id="@+id/answer3al"
+                                style="@style/radioButtons"
+                                android:tag="C"
+                                android:text="@string/answer3Tal" />
+
+                            <RadioButton
+                                android:id="@+id/answer4al"
+                                style="@style/radioButtons"
+                                android:tag="D"
+                                android:text="@string/answer4Tal" />
+                        </RadioGroup>
+
+                        <LinearLayout style="@style/matchVerticalLayout">
+
+                            <TextView
+                                style="@style/answers"
+                                android:text="@string/answer1al" />
+
+                            <TextView
+                                style="@style/answers"
+                                android:text="@string/answer2al" />
+
+                            <TextView
+                                style="@style/answers"
+                                android:text="@string/answer3al" />
+
+                            <TextView
+                                style="@style/answers"
+                                android:text="@string/answer4al" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+            <!-- Question 38am -->
+            <android.support.v7.widget.CardView style="@style/cards">
+
+                <LinearLayout style="@style/layoutInsideCard">
+
+                    <ImageView
+                        style="@style/cardImageView"
+                        android:src="@drawable/answer38" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="270dp">
+
+                        <RadioGroup
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent">
+
+                            <RadioButton
+                                android:id="@+id/answer1am"
+                                style="@style/radioButtons"
+                                android:tag="A"
+                                android:text="@string/answer1Tam" />
+
+                            <RadioButton
+                                android:id="@+id/answer2am"
+                                style="@style/radioButtons"
+                                android:tag="B"
+                                android:text="@string/answer2Tam" />
+
+                            <RadioButton
+                                android:id="@+id/answer3am"
+                                style="@style/radioButtons"
+                                android:tag="C"
+                                android:text="@string/answer3Tam" />
+
+                            <RadioButton
+                                android:id="@+id/answer4am"
+                                style="@style/radioButtons"
+                                android:tag="D"
+                                android:text="@string/answer4Tam" />
+                        </RadioGroup>
+
+                        <LinearLayout style="@style/matchVerticalLayout">
+
+                            <TextView
+                                style="@style/answers"
+                                android:text="@string/answer1am" />
+
+                            <TextView
+                                style="@style/answers"
+                                android:text="@string/answer2am" />
+
+                            <TextView
+                                style="@style/answers"
+                                android:text="@string/answer3am" />
+
+                            <TextView
+                                style="@style/answers"
+                                android:text="@string/answer4am" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+            <!-- Question 39an -->
+            <android.support.v7.widget.CardView style="@style/cards">
+
+                <LinearLayout style="@style/layoutInsideCard">
+
+                    <ImageView
+                        style="@style/cardImageView"
+                        android:src="@drawable/answer39" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="300dp">
+
+                        <RadioGroup
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent">
+
+                            <RadioButton
+                                android:id="@+id/answer1an"
+                                style="@style/radioButtons"
+                                android:tag="A"
+                                android:text="@string/answer1Tan" />
+
+                            <RadioButton
+                                android:id="@+id/answer2an"
+                                style="@style/radioButtons"
+                                android:tag="B"
+                                android:text="@string/answer2Tan" />
+
+                            <RadioButton
+                                android:id="@+id/answer3an"
+                                style="@style/radioButtons"
+                                android:tag="C"
+                                android:text="@string/answer3Tan" />
+
+                            <RadioButton
+                                android:id="@+id/answer4an"
+                                style="@style/radioButtons"
+                                android:tag="D"
+                                android:text="@string/answer4Tan" />
+                        </RadioGroup>
+
+                        <LinearLayout style="@style/matchVerticalLayout">
+
+                            <TextView
+                                style="@style/answers"
+                                android:text="@string/answer1an" />
+
+                            <TextView
+                                style="@style/answers"
+                                android:text="@string/answer2an" />
+
+                            <TextView
+                                style="@style/answers"
+                                android:text="@string/answer3an" />
+
+                            <TextView
+                                style="@style/answers"
+                                android:text="@string/answer4an" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+            <!-- Question 40ao -->
+            <android.support.v7.widget.CardView style="@style/cards">
+
+                <LinearLayout style="@style/layoutInsideCard">
+
+                    <ImageView
+                        style="@style/cardImageView"
+                        android:src="@drawable/answer40" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="280dp">
+
+                        <RadioGroup
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent">
+
+                            <RadioButton
+                                android:id="@+id/answer1ao"
+                                style="@style/radioButtons"
+                                android:tag="A"
+                                android:text="@string/answer1Tao" />
+
+                            <RadioButton
+                                android:id="@+id/answer2ao"
+                                style="@style/radioButtons"
+                                android:tag="B"
+                                android:text="@string/answer2Tao" />
+
+                            <RadioButton
+                                android:id="@+id/answer3ao"
+                                style="@style/radioButtons"
+                                android:tag="C"
+                                android:text="@string/answer3Tao" />
+
+                            <RadioButton
+                                android:id="@+id/answer4ao"
+                                style="@style/radioButtons"
+                                android:tag="D"
+                                android:text="@string/answer4Tao" />
+                        </RadioGroup>
+
+                        <LinearLayout style="@style/matchVerticalLayout">
+
+                            <TextView
+                                style="@style/answers"
+                                android:text="@string/answer1ao" />
+
+                            <TextView
+                                style="@style/answers"
+                                android:text="@string/answer2ao" />
+
+                            <TextView
+                                style="@style/answers"
+                                android:text="@string/answer3ao" />
+
+                            <TextView
+                                style="@style/answers"
+                                android:text="@string/answer4ao" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <Button
+                style="@style/menuButton"
+                android:onClick="submitAnswer"
+                android:text="@string/check" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_result"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="com.example.android.fourtemperaments.Temperaments">
+
+    <ScrollView
+        android:id="@+id/scrollFour"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout style="@style/layoutOutsideCard">
+
+            <android.support.v7.widget.CardView style="@style/cards">
+
+                <LinearLayout style="@style/layoutInsideCard">
+
+                    <TextView
+                        style="@style/resultTitle"
+                        android:text="@string/sanguine" />
+
+                    <TextView
+                        style="@style/resultTxt"
+                        android:text="@string/sanguineTxt" />
+
+                    <TextView
+                        style="@style/resultTxt"
+                        android:autoLink="web"
+                        android:text="@string/moreInfoP" />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <Button
+                style="@style/menuButton"
+                android:onClick="back"
+                android:text="Back to Menu" />
+
+            <android.support.v7.widget.CardView style="@style/cards">
+
+                <LinearLayout style="@style/layoutInsideCard">
+
+                    <TextView
+                        style="@style/resultTitle"
+                        android:text="@string/choleric" />
+
+                    <TextView
+                        style="@style/resultTxt"
+                        android:text="@string/cholericTxt" />
+
+                    <TextView
+                        style="@style/resultTxt"
+                        android:autoLink="web"
+                        android:text="@string/moreInfoC" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <Button
+                style="@style/menuButton"
+                android:onClick="back"
+                android:text="Back to Menu" />
+
+            <android.support.v7.widget.CardView style="@style/cards">
+
+                <LinearLayout style="@style/layoutInsideCard">
+
+                    <TextView
+                        style="@style/resultTitle"
+                        android:text="@string/phlegmatic" />
+
+                    <TextView
+                        style="@style/resultTxt"
+                        android:text="@string/phlegmaticTxt" />
+
+                    <TextView
+                        style="@style/resultTxt"
+                        android:autoLink="web"
+                        android:text="@string/moreInfoP" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <Button
+                style="@style/menuButton"
+                android:onClick="back"
+                android:text="Back to Menu" />
+
+            <android.support.v7.widget.CardView style="@style/cards">
+
+                <LinearLayout style="@style/layoutInsideCard">
+
+                    <TextView
+                        style="@style/resultTitle"
+                        android:text="@string/melancholic" />
+
+                    <TextView
+                        style="@style/resultTxt"
+                        android:text="@string/melancholicTxt" />
+
+                    <TextView
+                        style="@style/resultTxt"
+                        android:autoLink="web"
+                        android:text="@string/moreInfoM" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <Button
+                style="@style/menuButton"
+                android:onClick="back"
+                android:text="Back to Menu" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

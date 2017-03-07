@@ -1,0 +1,481 @@
+<resources>
+    <string name="app_name">Four Temperaments</string>
+    <string name="buttonAnswer">"please answer the questions"</string>
+
+    <!-- Results -->
+    <string name="Points">Three or four types of personality have the same number of points. You can not be determined.</string>
+    <string name="name">"Name: "</string>
+    <string name="sex">"Sex: "</string>
+    <string name="age">"Age: "</string>
+    <string name="age17">17 or less</string>
+    <string name="experience">"Experience as a programmer: "</string>
+    <string name="uCityStudent">"Udacity Student: "</string>
+    <string name="mails">"Now if you want you can send email to you or your friends by clicking "EMAIL" button or sent it to me by clicking "SEND TO ME" button, also if you checked Udacity membership you are able to see another button called "UDACITY" and if you click it, you ill be redirected to my topic on forum where you can share (after click the result is automatically copied to clipboard so just paste it) your personality with our community ;)
+        About one week before the course will end I'm planning to share with you the result with some graphs, numbers etc."</string>
+
+    <!-- Before Test -->
+    <string name="beforeStart">"Before you start"</string>
+    <string name="information">The temperament test is made up of 40 groups of terms, consisting of four choices each.
+        Read the four choices in each group, and then click the choice that best describes you. When you have chosen a term for each of the 40 groups, click the "Check" button, which is directly under the last group of choices."</string>
+    <string name="udacityPart">"Are You a part of Udacity program(Android Basics Scholarship: User Interface)? If Your are not, just leave it. "</string>
+    <string name="enterYourName">"Please enter your name"</string>
+    <string name="whoAreU">"Who are You?</string>
+    <string name="expBefore">"Did You have any experience as a programmer earlier?"</string>
+    <string name="howOld">"How old are You?"</string>
+    <string name="enterName">"Enter your name"</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="man">Man</string>
+    <string name="woman">Woman</string>
+    <string name="startTest">Start Test</string>
+    <string name="check">check</string>
+
+    <!-- Menu -->
+    <string name="start">start</string>
+    <string name="temp">temperaments</string>
+    <string name="about">about</string>
+    <string name="exit">exit</string>
+
+    <!-- About -->
+    <string name="fourT">Four temperaments</string>
+    <string name="fourTxt">Four temperaments is a proto-psychological theory that suggests that there are four fundamental personality types, sanguine (enthusiastic, active and social), choleric (short-tempered, fast or irritable), melancholic (analytical, wise and quiet), and phlegmatic (relaxed and peaceful).
+        Most formulations include the possibility of mixtures of the types.The Greek physician Hippocrates (c. 460 – c. 370 BC) incorporated the four temperaments into his medical theories as part of the ancient medical concept of humorism, that four bodily fluids affect human personality traits and behaviors. Later discoveries in biochemistry have led modern medicine science to reject the theory of the four temperaments, although some personality type systems of varying scientific acceptance continue to use four or more categories of a similar nature.</string>
+    <string name="fourInfo">Click here for more info: <a>https://en.wikipedia.org/wiki/Four_temperaments</a></string>
+    <!-- Temperaments -->
+    <string name="moreInfoS">Click here for more info: <a>https://www.fisheaters.com/quizs.html</a></string>
+    <string name="moreInfoC">Click here for more info: <a>https://www.fisheaters.com/quizc.html</a></string>
+    <string name="moreInfoP">Click here for more info: <a>https://www.fisheaters.com/quizp.html</a></string>
+    <string name="moreInfoM">Click here for more info: <a>https://www.fisheaters.com/quizm.html</a></string>
+
+    <!-- Sanguine -->
+    <string name="sanguine">Sanguine</string>
+    <string name="sanguineTxt">"You are a Sanguine, with an abundance of blood.
+        Sanguines are characterized by the element of Air,the season of Spring, childhood, the color sunny yellow, Venus, and the characteristics of "Hot" and "Moist.
+        Animals used to symbolize the Sanguine include the ape and the goat. To ehnance your Sanguine tendencies, listen to music in the Lydian Mode; to diminish those tendencies, listen to music in the Hypolydian mode.
+        If you were living in the Age of Faith, perfect career choices for you would be artisan, shopkeeper, innkeep, craftsman, seamstress, tailor, brewer, baker, stone mason, weaver, potter, farmer, housewife with a very happy family."&#8230;</string>
+    <string name="sanguineInfo"><a herf="Click for more info">https://www.fisheaters.com/quizs/</a></string>
+
+    <!-- Choleric -->
+    <string name="choleric">Choleric</string>
+    <string name="cholericTxt">"You are a "bilious" Choleric, with an abundance of yellow bile (believed to have originated in the kidneys).
+        Cholerics are characterized by the element of Fire, the season of Summer, early adulthood, the color fiery red, Mars, and the characteristics of "Hot" and "Dry."
+        The animal used to symbolize the Choleric is the lion. To ehnance your Choleric tendencies, listen to music in the Phrygian Mode; to diminish those tendencies, listen to music in the Hypophrygian mode.
+        Famous Cholerics include St. John the Baptist, St. Paul, and St. Ignatius of Loyola.
+        If you were living in the Age of Faith, perfect career choices for you would be Crusader (leader of the Crusades, of course), the knighthood, King, mayor, head of a guild, founder of a new religious order, or housewife or father with a well-organized,
+        well-behaved brood, each of whom you expect to excel."&#8230;</string>
+    <string name="cholericInfo"><a herf="Click for more info">https://www.fisheaters.com/quizc/</a></string>
+
+    <!-- Melancholic -->
+    <string name="melancholic">Melancholic</string>
+    <string name="melancholicTxt">"You are a "nervous" Melancholic, with an abundance of black bile.
+        Melancholics are characterized by the element of Earth, the season of Autumn, middle-aged adulthood, the colors black and blue, Saturn, and the characteristics of "Cold" and "Dry."
+        Animals used to symbolize the Melancholic include the pig, cat, and owl.
+        To ehnance your Melancholic tendencies, listen to music in the Mixolydian Mode; to diminish those tendencies, listen to music in the Hypomixolydian mode.
+        Famous Melancholics include St. John of the Cross, St. John the Divine, St. Francis, and St. Catherine of Siena.
+        If you were living in the Age of Faith, perfect career choices for you would be contemplative religious, theologian, artist, or writer."&#8230;</string>
+    <string name="melancholicInfo"><a herf="Click for more info">https://www.fisheaters.com/quizl/</a></string>
+
+    <!-- Phlegmatic -->
+    <string name="phlegmatic">Phlegmatic</string>
+    <string name="phlegmaticTxt">"You are a "lymphatic" or "pituitous" Phlegmatic, with an abundance of phlegm.
+        Phlegmatics are characterized by the element of Water, the season of Winter, old-aged adulthood, the colors white and green, the Moon, and the characteristics of "Cold" and "Wet."
+        Animals used to symbolize the Phlegmatic include the lamb and turtle.
+        To ehnance your Phlegmatic tendencies, listen to music in the Hypodorian Mode; to diminish those tendencies, listen to music in the Dorian mode.
+        If you were living in the Age of Faith, the career choice for you would be a copier of manuscripts or a night watchman."&#8230;</string>
+    <string name="phlegmaticInfo"><a herf="Click for more info">https://www.fisheaters.com/quizp/</a></string>
+
+
+    <!-- Question 1 -->
+    <string name="answer1T">Animated</string>
+    <string name="answer1">	Full of life, lively use of hand, arm, and face gestures.</string>
+    <string name="answer2T">Adventurous</string>
+    <string name="answer2">	One who will take on new and daring enterprises with a need to master them.</string>
+    <string name="answer3T">Analytical</string>
+    <string name="answer3">	One who is constantly in the process of analyzing people, places or things.</string>
+    <string name="answer4T">Adaptable</string>
+    <string name="answer4">	One who easily adapts to any situation.</string>
+
+    <!-- Question 2 -->
+    <string name="answer1Ta">Playful</string>
+    <string name="answer1a">Full of fun and good humor.</string>
+    <string name="answer2Ta">Persuasive</string>
+    <string name="answer2a">One who persuades through logic and fact rather than charm.</string>
+    <string name="answer3Ta">Persistent</string>
+    <string name="answer3a">"Refusing to let go, insistently repetitive or continuous, can't drop it."</string>
+    <string name="answer4Ta">Peaceful</string>
+    <string name="answer4a">One who seems undisturbed and tranquil and who retreats from any form of strife.</string>
+
+    <!-- Question 3 -->
+    <string name="answer1Tb">Sociable</string>
+    <string name="answer1b">This sociable refers to one who sees being with others as an opportunity to be cute and entertaining.</string>
+    <string name="answer2Tb">Strong-willed</string>
+    <string name="answer2b">One who is determined to have his/her own way.</string>
+    <string name="answer3Tb">Self-sacrificing</string>
+    <string name="answer3b">One who constantly sacrifices his/her own personal well being or for the sake or to meet the needs of others.</string>
+    <string name="answer4Tb">Submissive</string>
+    <string name="answer4b">One who easily submits to any other’s point of view or desire. This person has little need to assert his own view or opinion.</string>
+
+    <!-- Question 4 -->
+    <string name="answer1Tc">Convincing</string>
+    <string name="answer1c">This person can convince you of anything through the sheer charm of his/her personality. Facts are unimportant.</string>
+    <string name="answer2Tc">Competitive</string>
+    <string name="answer2c">One who turns every situation, happening or game into to an arena for competition. This person always plays to win.</string>
+    <string name="answer3Tc">Considerate</string>
+    <string name="answer3c">Having regard for the needs and feelings of others.</string>
+    <string name="answer4Tc">Controlled</string>
+    <string name="answer4c">"One who has emotional feelings but doesn't display them."</string>
+
+    <!-- Question 5 -->
+    <string name="answer1Td">Refreshing</string>
+    <string name="answer1d">One who renews and stimulates or pleasantly lifts spirits.</string>
+    <string name="answer2Td">Resourceful</string>
+    <string name="answer2d">One who is able to act quickly and effectively in virtually all situations.</string>
+    <string name="answer3Td">Respectful</string>
+    <string name="answer3d">One who treats others with deference, honor, esteem.</string>
+    <string name="answer4Td">Reserved</string>
+    <string name="answer4d">Self-restraint in expression of emotion or enthusiasm.</string>
+
+    <!-- Question 6 -->
+    <string name="answer1Te">Spirited</string>
+    <string name="answer1e">One who is full of life and excitement.</string>
+    <string name="answer2Te">Self-reliant</string>
+    <string name="answer2e">An independent person who can fully rely on his own capabilities, judgment, and resources.</string>
+    <string name="answer3Te">Sensitive</string>
+    <string name="answer3e">This person is intensively sensitive to self and others.</string>
+    <string name="answer4Te">Satisfied</string>
+    <string name="answer4e">A person who easily accepts any circumstance or situation.</string>
+
+    <!-- Question 7 -->
+    <string name="answer1Tf">Promoter</string>
+    <string name="answer1f">One who can compel others to go along, join, or invest through the sheer charm of his/her own.</string>
+    <string name="answer2Tf">Positive</string>
+    <string name="answer2f">Characterized by certainty and assurance.</string>
+    <string name="answer3Tf">Planner</string>
+    <string name="answer3f">One who prefers to work out a detailed arrangement beforehand, for the accomplishment of a project or goal.</string>
+    <string name="answer4Tf">Patient</string>
+    <string name="answer4f">"One who is unmoved by delay - calm and tolerant."</string>
+
+    <!-- Question 8 -->
+    <string name="answer1Tg">Spontaneous</string>
+    <string name="answer1g">One who prefers all of life to be impulsive, unpremeditated activity. This person feels restricted by plans.</string>
+    <string name="answer2Tg">Sure</string>
+    <string name="answer2g">One who is confident, not hesitating or wavering.</string>
+    <string name="answer3Tg">Scheduled</string>
+    <string name="answer3g">This person is controlled by his/her schedule and gets very upset if that schedule is interrupted.</string>
+    <string name="answer4Tg">Shy</string>
+    <string name="answer4g">"Quiet, doesn't easily instigate a conversation."</string>
+
+    <!-- Question 9 -->
+    <string name="answer1Th">Optimistic </string>
+    <string name="answer1h">This optimist is an almost childlike, dreamer type of optimist.</string>
+    <string name="answer2Th">Outspoken</string>
+    <string name="answer2h">One who speaks frankly and without reserve.</string>
+    <string name="answer3Th">Orderly</string>
+    <string name="answer3h">A person who has a methodical, systematic arrangement of things. Can be obsessively tidy.</string>
+    <string name="answer4Th">Obliging</string>
+    <string name="answer4h">"Accommodating. One who is quick to do it another's way."</string>
+
+    <!-- Question 10 -->
+    <string name="answer1Ti">Funny</string>
+    <string name="answer1i">This person has an innate humor that can make virtually any story a funny one and is a remarkable joke teller. If you have a dry humor, do not check this word.</string>
+    <string name="answer2Ti">Forceful</string>
+    <string name="answer2i">A commanding personality. One would hesitate to take a stand against this person.</string>
+    <string name="answer3Ti">Faithful</string>
+    <string name="answer3i">Consistently reliable. Steadfast, loyal, and devoted sometimes beyond reason.</string>
+    <string name="answer4Ti">Friendly</string>
+    <string name="answer4i">This person is a responder to friendliness rather than an initiator. While he/she seldom starts a conversation he/she responds with great warmth and enjoys the exchange.</string>
+    <!-- Question 11 -->
+    <string name="answer1Tj">Delightful</string>
+    <string name="answer1j">A person who is greatly pleasing, fun to be with.</string>
+    <string name="answer2Tj">Daring</string>
+    <string name="answer2j">One who is willing to take risks; fearless, bold.</string>
+    <string name="answer3Tj">Detailed</string>
+    <string name="answer3j"> A person who prefers working with the minute or fields that require detail work such as math, research, accounting, carving, art, graphics, etc.</string>
+    <string name="answer4Tj">Diplomatic</string>
+    <string name="answer4j">One who deals with people both tactfully and sensitively.</string>
+
+    <!-- Question 12 -->
+    <string name="answer1Tk">Cheerful</string>
+    <string name="answer1k">Constantly being in good spirits and promoting cheer.</string>
+    <string name="answer2Tk">Confident</string>
+    <string name="answer2k">One who is self-assured and/or certain of success.</string>
+    <string name="answer3Tk">Cultured</string>
+    <string name="answer3k">One whose interests involve both intellectual and artistic pursuits, such as theater, symphony, ballet, etc.</string>
+    <string name="answer4Tk">Consistent </string>
+    <string name="answer4k">A person who is agreeable, compatible, not contradictory.</string>
+
+    <!-- Question 13 -->
+    <string name="answer1Tl">Inspiring</string>
+    <string name="answer1l"> One who encourages others to work, join, or be involved. There is another personality that is deeply inspirational and has a need to bring life-changing inspiration.</string>
+    <string name="answer2Tl">Independent</string>
+    <string name="answer2l">One who is self-sufficient, self-supporting, self-confident, and seems to have little need of help.</string>
+    <string name="answer3Tl">Idealistic</string>
+    <string name="answer3l">One who visualizes in an ideal or perfect form, and has a need to measure up that standard.</string>
+    <string name="answer4Tl">Inoffensive</string>
+    <string name="answer4l"> A person who never causes offense, pleasant, unobjectionable, harmless.</string>
+
+    <!-- Question 14 -->
+    <string name="answer1Tm">Demonstrative</string>
+    <string name="answer1m">"One who openly expresses emotion, especially affection. This person doesn't hesitate to touch others while speaking to them."</string>
+    <string name="answer2Tm">Decisive</string>
+    <string name="answer2m">A person with quick decision-making ability.</string>
+    <string name="answer3Tm">Deep</string>
+    <string name="answer3m">A person who never causes offense, pleasant, unobjectionable, harmless.</string>
+    <string name="answer4Tm">Dry Humor</string>
+    <string name="answer4m">One who exhibits dry wit, usually one-liners which can be sarcastic in nature, but very humorous.</string>
+
+    <!-- Question 15 -->
+    <string name="answer1Tn">Mixes easily</string>
+    <string name="answer1n">"One who loves a party and can't wait to meet everyone in the room, never meets a stranger."</string>
+    <string name="answer2Tn">Mover</string>
+    <string name="answer2n">One who is so driven by a need to be productive, that he/she finds it difficult to sit still.</string>
+    <string name="answer3Tn">Musical</string>
+    <string name="answer3n">One who either participates in or has an intense appreciation for music. This type of musical would not include those who find it fun to sing or play.</string>
+    <string name="answer4Tn">Mediator</string>
+    <string name="answer4n">A person who consistently finds him/herself in the role of reconciling differences in order to avoid conflict.</string>
+    <!-- Question 16 -->
+    <string name="answer1To">Talker</string>
+    <string name="answer1o">"A person who is constantly talking, generally telling funny stories and entertaining everyone around him/her."</string>
+    <string name="answer2To">Tenacious</string>
+    <string name="answer2o">"One who holds on firmly, stubbornly, and won't let go till the goals are accomplished."</string>
+    <string name="answer3To">Thoughtful</string>
+    <string name="answer3o">A considerate person who remembers special occasions and is quick to make a kind gesture.</string>
+    <string name="answer4To">Tolerant</string>
+    <string name="answer4o">One who easily accepts the thoughts and ways of others without the need to disagree with or change them.</string>
+
+    <!-- Question 17 -->
+    <string name="answer1Tp">Lively</string>
+    <string name="answer1p">Full of life, vigorous, energetic.</string>
+    <string name="answer2Tp">Leader</string>
+    <string name="answer2p">A person who is a born leader. This is not one who rises to the occasion because they can lead, but one who is driven to lead and finds it very difficult to believe anyone else can do the job.</string>
+    <string name="answer3Tp">Loyal</string>
+    <string name="answer3p">Faithful to a person, ideal, or job. This person is sometimes is loyal beyond reason and to his/her own detriment.</string>
+    <string name="answer4Tp">Listener</string>
+    <string name="answer4p">One who always seems willing to listen.</string>
+
+    <!-- Question 18 -->
+    <string name="answer1Tr">Cute</string>
+    <string name="answer1r">Bubbly-Beauty, cutie, precious, diminutive.</string>
+    <string name="answer2Tr">Chief</string>
+    <string name="answer2r">A person who commands leadership.</string>
+    <string name="answer3Tr">Chartmaker</string>
+    <string name="answer3r">One who enjoys charts, graphs, or lists.</string>
+    <string name="answer4Tr">Contented</string>
+    <string name="answer4r">"One who is easily satisfied with what he/she has."</string>
+
+    <!-- Question 19 -->
+    <string name="answer1Ts">Popular</string>
+    <string name="answer1s">One who is the life of the party and therefore is much desired as a party guest.</string>
+    <string name="answer2Ts">Productive </string>
+    <string name="answer2s">One who must constantly be working and/or producing. This person finds it very difficult to rest.</string>
+    <string name="answer3Ts">Perfectionist</string>
+    <string name="answer3s">One who desires perfection, but not necessarily in every area of life.</string>
+    <string name="answer4Ts">Permissive</string>
+    <string name="answer4s">This person is permissive with employees, friends, and children in order to avoid conflict.</string>
+
+    <!-- Question 20 -->
+    <string name="answer1Tt">Bouncy</string>
+    <string name="answer1t">A bubbly, lively personality.</string>
+    <string name="answer2Tt">Bold</string>
+    <string name="answer2t">Fearless, daring, forward.</string>
+    <string name="answer3Tt">Behaved</string>
+    <string name="answer3t">One who consistently desires to conduct him/herself within the realm of what is proper.</string>
+    <string name="answer4Tt">Balanced</string>
+    <string name="answer4t">Stable, middle of the road personality, without extremes.</string>
+    <!-- Question 21 -->
+    <string name="answer1Tu">Brassy</string>
+    <string name="answer1u">One who is showy, flashy, comes on strong.</string>
+    <string name="answer2Tu">Bossy</string>
+    <string name="answer2u">Commanding, domineering, overbearing. (Do not relate this to the raising of children. All mothers seem bossy and domineering.)</string>
+    <string name="answer3Tu">Bashful</string>
+    <string name="answer3u">One who shrinks from notice, resulting from self-consciousness.</string>
+    <string name="answer4Tu">Blank</string>
+    <string name="answer4u">A person who shows little facial expression or emotion.</string>
+
+    <!-- Question 22 -->
+    <string name="answer1Tw">Undisciplined</string>
+    <string name="answer1w">"A person whose lack of discipline permeates virtually every area of his/her life."</string>
+    <string name="answer2Tw">Unenthusiastic</string>
+    <string name="answer2w">A person who finds it hard to get excited or feel enthusiastic.</string>
+    <string name="answer3Tw">Unforgiving</string>
+    <string name="answer3w">One who has difficulty forgiving a hurt or injustice done to them. This individual may find it hard to release a grudge.</string>
+    <string name="answer4Tw">Unsympathetic</string>
+    <string name="answer4w">One who finds it difficult to relate to the problems or hurts of others.</string>
+
+    <!-- Question 23 -->
+    <string name="answer1Tx">Repetitious</string>
+    <string name="answer1x">"This person retells stories and incidents to entertain you without realizing he/she has already told the story several times before."</string>
+    <string name="answer2Tx">Resistant</string>
+    <string name="answer2x">"One who strives, works against, or resists accepting any other way but his/her own."</string>
+    <string name="answer3Tx">Resentful</string>
+    <string name="answer3x">This person easily feels resentment as a result or real or imaged offenses.</string>
+    <string name="answer4Tx">Reluctant</string>
+    <string name="answer4x">One who is unwilling or struggles against getting involved.</string>
+
+    <!-- Question 24 -->
+    <string name="answer1Ty">Forgetful</string>
+    <string name="answer1y">"This person is forgetful because it isn't fun to remember. His/her forgetfulness is tied to a lack of discipline."</string>
+    <string name="answer2Ty">Frank</string>
+    <string name="answer2y">"One who is straightforward, outspoken, and doesn't mind telling you exactly what he/she thinks."</string>
+    <string name="answer3Ty">Fussy</string>
+    <string name="answer3y">One who is insistent over petty matters or details, calling for great attention to trivial details.</string>
+    <string name="answer4Ty">Fearful</string>
+    <string name="answer4y">One who often experiences feelings of fear, apprehension, or anxiousness.</string>
+
+    <!-- Question 25 -->
+    <string name="answer1Tz">Interrupts</string>
+    <string name="answer1z">"This person interrupts because he/she is afraid of forgetting the wonderful thing they have to say if another is allowed to finish. This person is more of a talker than a listener."</string>
+    <string name="answer2Tz">Impatient</string>
+    <string name="answer2z">A person who finds it difficult to endure irritation or wait patiently.</string>
+    <string name="answer3Tz">Insecure</string>
+    <string name="answer3z">One who is apprehensive or lacks confidence.</string>
+    <string name="answer4Tz">Indecisive</string>
+    <string name="answer4z">This person finds it difficult to make a decision at all. There is another personality that labors long over each decision in order to make the perfect one. If you are the latter, do not check this word.</string>
+    <!-- Question 26 -->
+    <string name="answer1Taa">Unpredictable</string>
+    <string name="answer1aa">This person may be ecstatic one moment and blue the next, willing to help and then disappear, promoting to come and then forgetting to show up.</string>
+    <string name="answer2Taa">Unaffectionate</string>
+    <string name="answer2aa">One who finds it difficult to verbally or physically demonstrate affection openly.</string>
+    <string name="answer3Taa">Unpopular</string>
+    <string name="answer3aa">A person whose internally and demand for perfection can push others away.</string>
+    <string name="answer4Taa">Uninvolved</string>
+    <string name="answer4aa">One who has no desire to become involved in clubs, groups, or people activities.</string>
+
+    <!-- Question 27 -->
+    <string name="answer1Tab">Haphazard</string>
+    <string name="answer1ab">One who has no consistent way of doing things.</string>
+    <string name="answer2Tab">Headstrong</string>
+    <string name="answer2ab">One who insist on having his/her own way.</string>
+    <string name="answer3Tab">Hard to Please</string>
+    <string name="answer3ab">A person whose standards are set so high that it is difficult to ever please them.</string>
+    <string name="answer4Tab">Hesitant</string>
+    <string name="answer4ab">This person is slow to get moving and hard to get involved.</string>
+
+    <!-- Question 28 -->
+    <string name="answer1Tac">Permissive</string>
+    <string name="answer1ac">This personality allows others (including children) to do as they please in order to keep from being disliked.</string>
+    <string name="answer2Tac">Proud</string>
+    <string name="answer2ac">One with great self-esteem who sees him/herself as always right and the best person for the job.</string>
+    <string name="answer3Tac">Pessimistic</string>
+    <string name="answer3ac">This person, while hoping for the best, generally sees the down side of a situation.</string>
+    <string name="answer4Tac">Plain</string>
+    <string name="answer4ac">The middle-of-the-road personality without highs or lows and showing little if any emotion.</string>
+
+    <!-- Question 29 -->
+    <string name="answer1Tad">Angered easily</string>
+    <string name="answer1ad">"One who has a childlike flash-in-the-pan temper that expresses itself in a child's tantrum style. It is over and forgotten almost instantly."</string>
+    <string name="answer2Tad">Argumentative</string>
+    <string name="answer2ad">One who incites argues generally because he/she is determined to be right no matter what the situation may be.</string>
+    <string name="answer3Tad">Alienated</string>
+    <string name="answer3ad">"A person who feels estranged from others often because of insecurity or fear that others don't really enjoy his/her company."</string>
+    <string name="answer4Tad">Aimless</string>
+    <string name="answer4ad">A person who is not a goal-seeker and has little desire to be one.</string>
+
+    <!-- Question 30 -->
+    <string name="answer1Tae">Naive</string>
+    <string name="answer1ae">"A simple childlike perspective, lacking sophistication or worldliness. This is not to be confused with uninformed."</string>
+    <string name="answer2Tae">Nervy</string>
+    <string name="answer2ae">Full of confidence, fortitude, and sheer guts.</string>
+    <string name="answer3Tae">Negative Attitude</string>
+    <string name="answer3ae">One whose attitude is seldom positive and is often able to see only the down or dark side of each situation.</string>
+    <string name="answer4Tae">Nonchalant</string>
+    <string name="answer4ae">Easy-going, unconcerned, indifferent.</string>
+    <!-- Question 31 -->
+    <string name="answer1Taf">Wants Credit</string>
+    <string name="answer1af">One who is almost dysfunctional without the credit or approval of others. As an entertainer this person feeds on the applause, laughter, and/or acceptance of an audience.</string>
+    <string name="answer2Taf">Workaholic</string>
+    <string name="answer2af">This is one of two workaholic personalities. This particular one is an aggressive goal-setter who must be constantly productive and feels guilty when resting.</string>
+    <string name="answer3Taf">Withdrawn</string>
+    <string name="answer3af">A person who pulls back to him/herself and needs a great deal of alone or isolation time.</string>
+    <string name="answer4Taf">Worrier</string>
+    <string name="answer4af">One who consistently feels uncertain or troubled.</string>
+
+    <!-- Question 32 -->
+    <string name="answer1Tag">Talkative</string>
+    <string name="answer1ag">A compulsive talker who finds it difficult to listen. Again, this is an entertaining talker and not a nervous talker.</string>
+    <string name="answer2Tag">Tactless</string>
+    <string name="answer2ag">A person who can sometimes express him/herself in a somewhat offensive and inconsiderate way.</string>
+    <string name="answer3Tag">Too sensitive</string>
+    <string name="answer3ag">One who is overly sensitive and introspective.</string>
+    <string name="answer4Tag">Timid</string>
+    <string name="answer4ag">One who shrinks from difficult situations.</string>
+
+    <!-- Question 33 -->
+    <string name="answer1Tah">Disorganized</string>
+    <string name="answer1ah">One whose lack of organizational ability touches virtually every area of life.</string>
+    <string name="answer2Tah">Domineering</string>
+    <string name="answer2ah">One who compulsively takes control of situations and/or people. Do not consider the mothering role. All mothers are somewhat domineering.</string>
+    <string name="answer3Tah">Depressed</string>
+    <string name="answer3ah">A person who struggles with bouts of depression of a fairly consistent basis.</string>
+    <string name="answer4Tah">Doubtful</string>
+    <string name="answer4ah">A person who is full of doubts, uncertain.</string>
+
+    <!-- Question 34 -->
+    <string name="answer1Tai">Inconsistent</string>
+    <string name="answer1ai">Erratic, contradictory, illogical.</string>
+    <string name="answer2Tai">Intolerant</string>
+    <string name="answer2ai">"One who appears unable to withstand or accept another's attitudes, points of view or way of doing things."</string>
+    <string name="answer3Tai">Introvert</string>
+    <string name="answer3ai">"A person whose thoughts and interest are directed inward. One who lives within him/herself."</string>
+    <string name="answer4Tai">Indifferent</string>
+    <string name="answer4ai">"A person to whom most things don't mater one way or the other."</string>
+
+    <!-- Question 35 -->
+    <string name="answer1Taj">Messy</string>
+    <string name="answer1aj">"This person is messy because it isn't fun to discipline him/herself to clean. The mess is hardly noticed."</string>
+    <string name="answer2Taj">Manipulative</string>
+    <string name="answer2aj">"One who influences or manages shrewdly or deviously for one's own advantage. One who will find a way to get his/her own way."</string>
+    <string name="answer3Taj">Moody</string>
+    <string name="answer3aj">"One easily slips into moods. This person doesn't get very high emotionally, but does experience very low lows."</string>
+    <string name="answer4Taj">Mumbles</string>
+    <string name="answer4aj">This person may mumble quietly under the breath when pushed. This is a passive display of anger.</string>
+    <!-- Question 36 -->
+    <string name="answer1Tak">Show-off</string>
+    <string name="answer1ak">One who needs to be the center of attention.</string>
+    <string name="answer2Tak">Stubborn</string>
+    <string name="answer2ak">A person who is determined to exert his/her own will. Not easily persuaded; obstinate.</string>
+    <string name="answer3Tak">Skeptical</string>
+    <string name="answer3ak">Disbelieving, questioning the motive behind the words.</string>
+    <string name="answer4Tak">Slow</string>
+    <string name="answer4ak">One who is slow-moving, easy-going.</string>
+
+    <!-- Question 37 -->
+    <string name="answer1Tal">Loud</string>
+    <string name="answer1al">A person whose laugh or voice can be heard above others in the room.</string>
+    <string name="answer2Tal">Lord over others</string>
+    <string name="answer2al">"A person who doesn't hesitate to let you know that he/she is right or has won."</string>
+    <string name="answer3Tal">Loner</string>
+    <string name="answer3al">One who requires a lot of alone time and tends to avoid other people.</string>
+    <string name="answer4Tal">Lazy</string>
+    <string name="answer4al">One who evaluates work or activity in terms of how much energy it will take.</string>
+
+    <!-- Question 38 -->
+    <string name="answer1Tam">Scatterbraine</string>
+    <string name="answer1am">A person lacking the power of concentration, or attention. Flightily.</string>
+    <string name="answer2Tam">Short-tempered</string>
+    <string name="answer2am">One who has a demanding impatience-based anger and a very short fuse.</string>
+    <string name="answer3Tam">Suspicious</string>
+    <string name="answer3am">One who tends to suspect or distrust.</string>
+    <string name="answer4Tam">Sluggish</string>
+    <string name="answer4am">Slow to get started.</string>
+
+    <!-- Question 39 -->
+    <string name="answer1Tan">Restless</string>
+    <string name="answer1an">"A person who likes constant new activity because it isn't fun to do the same things all the time."</string>
+    <string name="answer2Tan">Rash</string>
+    <string name="answer2an">One who may act hastily, without thinking things through, generally because of impatience.</string>
+    <string name="answer3Tan">Revengeful</string>
+    <string name="answer3an">One who knowingly or otherwise holds a grudge and punishes the offender, often by subtly withholding friendship or affection.</string>
+    <string name="answer4Tan">Reluctant</string>
+    <string name="answer4an">One who is unwilling or struggles against getting involved.</string>
+
+    <!-- Question 40 -->
+    <string name="answer1Tao">Changeable</string>
+    <string name="answer1ao">A person with a childlike short attention span that needs a lot of change and variety to keep from getting bored.</string>
+    <string name="answer2Tao">Crafty</string>
+    <string name="answer2ao">Shrewd, one who can always find a way to get to the desired end.</string>
+    <string name="answer3Tao">Critical</string>
+    <string name="answer3ao">One who constantly evaluates and makes judgment.</string>
+    <string name="answer4Tao">Compromising</string>
+    <string name="answer4ao">A person who will often compromise, even when he/she is right, in order to avoid conflict.</string>
+</resources>
