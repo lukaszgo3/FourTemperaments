@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        //dodawanie Id radio buttonow
+        //Button's IDs
         setupButtons(R.id.answer1, R.id.answer2, R.id.answer3, R.id.answer4,
                 R.id.answer1a, R.id.answer2a, R.id.answer3a, R.id.answer4a,
                 R.id.answer1b, R.id.answer2b, R.id.answer3b, R.id.answer4b,
