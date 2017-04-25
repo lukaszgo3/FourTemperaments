@@ -104,27 +104,27 @@ public class ResultActivity extends AppCompatActivity {
         } else infoMsg += getString(R.string.sex) + getString(R.string.man) + "\n" + "\n";
 
         if (age == 1) {
-            infoMsg += getString(R.string.age) + getString(R.string.age17) + "\n" + "\n";
+            infoMsg += getString(R.string.age17) + "\n" + "\n";
 
         }
         if (age == 2) {
-            infoMsg += getString(R.string.age) + "18-24" + "\n" + "\n";
+            infoMsg += getString(R.string.age18) + "\n" + "\n";
 
         }
         if (age == 3) {
-            infoMsg += getString(R.string.age) + "25-30" + "\n" + "\n";
+            infoMsg += getString(R.string.age25) + "\n" + "\n";
 
         }
         if (age == 4) {
-            infoMsg += getString(R.string.age) + "31-35" + "\n" + "\n";
+            infoMsg += getString(R.string.age31) + "\n" + "\n";
 
         }
         if (age == 5) {
-            infoMsg += getString(R.string.age) + "36-40" + "\n" + "\n";
+            infoMsg += getString(R.string.age36) + "\n" + "\n";
 
         }
         if (age == 6) {
-            infoMsg += getString(R.string.age) + "40+" + "\n" + "\n";
+            infoMsg += getString(R.string.age41) + "\n" + "\n";
         }
 
         if (yesNo == 1) {
