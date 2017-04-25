@@ -10,8 +10,7 @@
     <string name="age17">17 or less</string>
     <string name="experience">"Experience as a programmer: "</string>
     <string name="uCityStudent">"Udacity Student: "</string>
-    <string name="mails">"Now if you want you can send email to you or your friends by clicking "EMAIL" button or sent it to me by clicking "SEND TO ME" button, also if you checked Udacity membership you are able to see another button called "UDACITY" and if you click it, you ill be redirected to my topic on forum where you can share (after click the result is automatically copied to clipboard so just paste it) your personality with our community ;)
-        About one week before the course will end I'm planning to share with you the result with some graphs, numbers etc."</string>
+    <string name="mails">"Now if you want you can send email to you or your friends by clicking "EMAIL" button or sent it to me by clicking "SEND TO ME" button, also if you checked Udacity membership you are able to see another button called "UDACITY" and if you click it, you ill be redirected to my topic on forum where you can share (after click the result is automatically copied to clipboard so just paste it) your personality with our community ;)"</string>
 
     <!-- Before Test -->
     <string name="beforeStart">"Before you start"</string>
