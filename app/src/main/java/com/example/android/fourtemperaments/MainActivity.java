@@ -15,8 +15,8 @@ import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity {
 
-    private ArrayList<CompoundButton> buttons = new ArrayList<>();
-    private int scoreA, scoreB, scoreC, scoreD, scoreAll;
+    private ArrayList<CompoundButton> buttons = new ArrayList<>(40);
+    private int scoreA, scoreB, scoreC, scoreD;
 
     @Override
     public void onBackPressed() {
@@ -99,7 +99,7 @@ public class MainActivity extends AppCompatActivity {
                     scoreD++;
         }
 
-
+        int scoreAll;
         scoreAll = scoreA + scoreB + scoreC + scoreD;
         if (scoreAll >= 40) {
 

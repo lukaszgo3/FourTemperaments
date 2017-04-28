@@ -1,0 +1,107 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_before_test"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="com.example.android.fourtemperaments.Warmup">
+
+    <android.support.v7.widget.CardView style="@style/cards">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout style="@style/layoutResult">
+
+                <TextView
+                    style="@style/resultTitle"
+                    android:gravity="center"
+                    android:text="@string/warmup" />
+
+                <!-- Question 1 -->
+                <TextView
+                    style="@style/beforeQuestionsWarm"
+                    android:text="@string/einstein" />
+
+                <EditText
+                    android:id="@+id/question1"
+                    style="@style/editTextEinstein" />
+
+                <!-- Question 2 -->
+                <TextView
+                    style="@style/beforeQuestionsWarm"
+                    android:text="@string/equation" />
+
+                <EditText
+                    android:id="@+id/question2"
+                    style="@style/editTextNumber" />
+
+                <!-- Question 3 -->
+                <TextView
+                    style="@style/beforeQuestions"
+                    android:text="@string/question3" />
+
+                <CheckBox
+                    android:id="@+id/question3a"
+                    style="@style/wrap5dp"
+                    android:text="@string/iceland" />
+
+                <CheckBox
+                    android:id="@+id/question3b"
+                    style="@style/wrap5dp"
+                    android:text="@string/poland" />
+
+                <CheckBox
+                    android:id="@+id/question3c"
+                    style="@style/wrap5dp"
+                    android:text="@string/germany" />
+
+                <CheckBox
+                    android:id="@+id/question3d"
+                    style="@style/wrap5dp"
+                    android:text="@string/china" />
+
+                <!-- Question 4 -->
+                <TextView
+                    style="@style/beforeQuestions"
+                    android:text="@string/hogwart" />
+
+                <CheckBox
+                    android:id="@+id/question4a"
+                    style="@style/wrap5dp"
+                    android:text="@string/Hermioa" />
+
+                <CheckBox
+                    android:id="@+id/question4b"
+                    style="@style/wrap5dp"
+                    android:text="@string/draco" />
+
+                <CheckBox
+                    android:id="@+id/question4c"
+                    style="@style/wrap5dp"
+                    android:text="@string/ron" />
+
+                <CheckBox
+                    android:id="@+id/question4d"
+                    style="@style/wrap5dp"
+                    android:text="@string/luna" />
+
+                <Button
+                    android:id="@+id/warmResultBt"
+                    style="@style/warmupButton"
+                    android:onClick="warmResult"
+                    android:text="@string/result" />
+            </LinearLayout>
+        </ScrollView>
+    </android.support.v7.widget.CardView>
+
+    <Button
+        android:id="@+id/nextQuestions"
+        style="@style/menuButton"
+        android:text="@string/next"
+        android:visibility="invisible" />
+
+</LinearLayout>

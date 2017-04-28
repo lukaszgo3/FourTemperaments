@@ -2,6 +2,36 @@
     <string name="app_name">Four Temperaments</string>
     <string name="buttonAnswer">"please answer the questions"</string>
 
+    <!-- Warmup -->
+
+    <string name="next">"Next"</string>
+    <string name="warmup">"Warmup"</string>
+    <string name="aaaa">"Age: "</string>
+    <string name="result">Result</string>
+
+    <!-- warm Question 1 -->
+    <string name="einstein">"Who said E=mc2"</string>
+    <string name="hisName">Enter name</string>
+
+    <!-- warm Question 2 -->
+    <string name="equation">"Solve the equation 2+2*2&#8211;2"</string>
+    <string name="enterNumber">Enter number</string>
+
+    <!-- warm Question3 -->
+    <string name="question3">"Select European countries"</string>
+    <string name="germany">Germany</string>
+    <string name="poland">Poland</string>
+    <string name="china">China</string>
+    <string name="iceland">Iceland</string>
+
+    <!-- warm Question 4 -->
+    <string name="hogwart">"Who was in Gryffindor house in Harry Potter book/movie"</string>
+    <string name="Hermioa">Hermiona Granger</string>
+    <string name="draco">Draco Malfoy</string>
+    <string name="ron">Ron Weasley</string>
+    <string name="luna">Luna Lovegood</string>
+
+
     <!-- Results -->
     <string name="Points">Three or four types of personality have the same number of points. You can not be determined.</string>
     <string name="name">"Name: "</string>

@@ -18,7 +18,7 @@ public class MainMenu extends AppCompatActivity {
     }
 
     public void play(View v) {
-        Intent i = new Intent(this, BeforeTest.class);
+        Intent i = new Intent(this, Warmup.class);
         startActivity(i);
 
     }
